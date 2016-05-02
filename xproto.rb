@@ -1,6 +1,11 @@
 # xproto: Build a bottle for Linuxbrew
 class Xproto < Formula
   desc "Xorg Protocol Headers: xproto"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "082c8e842bc13f76a67fb0fad3db55fcd69f2b1d3e57196bdfdca327c4f3037a" => :x86_64_linux
+  end
+
   homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url    "http://ftp.x.org/pub/individual/proto/xproto-7.0.28.tar.bz2"
   sha256 "29e85568d1f68ceef8a2c081dad9bc0e5500a53cfffde24b564dc43d46ddf6ca"
