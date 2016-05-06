@@ -1,6 +1,11 @@
 # fixesproto: Build a bottle for Linuxbrew
 class Fixesproto < Formula
   desc "X.Org Protocol Headers: fixesproto"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "dcfed30e21197c8d4c9384e9d1e5304c49983d4866f0186ebe2fdf06e80a4801" => :x86_64_linux
+  end
+
   homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url    "http://ftp.x.org/pub/individual/proto/fixesproto-5.0.tar.bz2"
   sha256 "ba2f3f31246bdd3f2a0acf8bd3b09ba99cab965c7fb2c2c92b7dc72870e424ce"
