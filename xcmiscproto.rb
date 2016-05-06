@@ -1,6 +1,11 @@
 # xcmiscproto: Build a bottle for Linuxbrew
 class Xcmiscproto < Formula
   desc "X.Org Protocol Headers: xcmiscproto"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "46caab02275016fa14276b31198a280a928336004767f5808a78617efbb8814f" => :x86_64_linux
+  end
+
   homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url    "http://ftp.x.org/pub/individual/proto/xcmiscproto-1.2.2.tar.bz2"
   sha256 "b13236869372256c36db79ae39d54214172677fb79e9cdc555dceec80bd9d2df"
