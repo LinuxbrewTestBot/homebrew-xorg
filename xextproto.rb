@@ -1,6 +1,11 @@
 # xextproto: Build a bottle for Linuxbrew
 class Xextproto < Formula
   desc "X.Org Protocol Headers: xextproto"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "3fd3b60e950663a08b196c60d4a6ec702afad82c5334232a829d9168f3bd59b6" => :x86_64_linux
+  end
+
   homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url    "http://ftp.x.org/pub/individual/proto/xextproto-7.3.0.tar.bz2"
   sha256 "f3f4b23ac8db9c3a9e0d8edb591713f3d70ef9c3b175970dd8823dfc92aa5bb0"
