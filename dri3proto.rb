@@ -1,6 +1,11 @@
 # dri3proto: Build a bottle for Linuxbrew
 class Dri3proto < Formula
   desc "X.Org Protocol Headers: dri3proto"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "788fe42333de8a07ac603def01eafa4d70cda9b7582f1cf7e0cd063d2dcbfbba" => :x86_64_linux
+  end
+
   homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url    "http://ftp.x.org/pub/individual/proto/dri3proto-1.0.tar.bz2"
   sha256 "01be49d70200518b9a6b297131f6cc71f4ea2de17436896af153226a774fc074"
