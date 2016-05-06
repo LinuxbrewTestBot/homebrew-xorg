@@ -1,6 +1,11 @@
 # fontsproto: Build a bottle for Linuxbrew
 class Fontsproto < Formula
   desc "X.Org Protocol Headers: fontsproto"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "5d04e66c6c6e5c17731f3d732f1c093b44009dbd07b22c1b629593d1cdd497fd" => :x86_64_linux
+  end
+
   homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url    "http://ftp.x.org/pub/individual/proto/fontsproto-2.1.3.tar.bz2"
   sha256 "259046b0dd9130825c4a4c479ba3591d6d0f17a33f54e294b56478729a6e5ab8"
