@@ -1,6 +1,11 @@
 # libxdmcp: Build a bottle for Linuxbrew
 class Libxdmcp < Formula
   desc "X Display Manager Control Protocol"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "b6ce973996bb3bee6493bf298605cabdebb538ff3092d97e9b98f2eeb7f24da3" => :x86_64_linux
+  end
+
   homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url    "http://ftp.x.org/pub/individual/lib/libXdmcp-1.1.2.tar.bz2"
   sha256 "81fe09867918fff258296e1e1e159f0dc639cb30d201c53519f25ab73af4e4e2"
