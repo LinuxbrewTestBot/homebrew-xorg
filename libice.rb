@@ -1,6 +1,11 @@
 # libice: Build a bottle for Linuxbrew
 class Libice < Formula
   desc "X.Org Libraries: libICE"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "68cbbeb20dc4db408dba453e9af9eee7274d17f9bb99f7c862ab087d2239b754" => :x86_64_linux
+  end
+
   homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url    "http://ftp.x.org/pub/individual/lib/libICE-1.0.9.tar.bz2"
   sha256 "8f7032f2c1c64352b5423f6b48a8ebdc339cc63064af34d66a6c9aa79759e202"
