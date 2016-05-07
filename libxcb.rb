@@ -1,6 +1,11 @@
 # libxcb: Build a bottle for Linuxbrew
 class Libxcb < Formula
   desc "An interface to the X Window System protocol, which replaces the current Xlib interface"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "0fc412d2067b0732c6795367feb8dfeac496e50f44bd30482c2bfd350393fd80" => :x86_64_linux
+  end
+
   homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url    "http://xcb.freedesktop.org/dist/libxcb-1.11.1.tar.bz2"
   sha256 "b720fd6c7d200e5371affdb3f049cc8f88cff9aed942ff1b824d95eedbf69d30"
