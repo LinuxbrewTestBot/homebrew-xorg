@@ -1,6 +1,11 @@
 # xorg-protocols: Build a bottle for Linuxbrew
 class XorgProtocols < Formula
   desc "X.Org Protocols"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "7ed972478c2ce565fb5abb7b3fb2377d29671137b8ec46f30ffcf9e966dd96d0" => :x86_64_linux
+  end
+
   homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url      "https://raw.githubusercontent.com/Linuxbrew/homebrew-xorg/master/README.md"
   version  "latest"
