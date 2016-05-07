@@ -1,6 +1,11 @@
 # bigreqsproto: Build a bottle for Linuxbrew
 class Bigreqsproto < Formula
   desc "X.Org Protocol Headers: bigreqsproto"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "204f49efe8ca9252a02645166810b3f1e8fe7d14e7298977cb41fc2bb3b945bd" => :x86_64_linux
+  end
+
   homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url    "http://ftp.x.org/pub/individual/proto/bigreqsproto-1.1.2.tar.bz2"
   sha256 "462116ab44e41d8121bfde947321950370b285a5316612b8fce8334d50751b1e"
