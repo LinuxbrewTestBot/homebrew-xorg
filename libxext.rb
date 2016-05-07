@@ -1,6 +1,11 @@
 # libxext: Build a bottle for Linuxbrew
 class Libxext < Formula
   desc "X.Org Libraries: libXext"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "00ba831ed41f21fa1f0bbdbff41db6a6bb8c188b99f2665369aa0cbe3ec94ac1" => :x86_64_linux
+  end
+
   homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url    "http://ftp.x.org/pub/individual/lib/libXext-1.3.3.tar.bz2"
   sha256 "b518d4d332231f313371fdefac59e3776f4f0823bcb23cf7c7305bfb57b16e35"
