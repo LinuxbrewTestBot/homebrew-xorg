@@ -1,6 +1,10 @@
 # libx11: Build a bottle for Linuxbrew
 class Libx11 < Formula
   desc "X.Org Libraries: libX11"
+  bottle do
+    sha256 "acfc0cdc997ab0d053a534eb0c951fb0fc6fe5d97a6a66b54db8c6328fb499c9" => :x86_64_linux
+  end
+
   homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url    "http://ftp.x.org/pub/individual/lib/libX11-1.6.3.tar.bz2"
   sha256 "cf31a7c39f2f52e8ebd0db95640384e63451f9b014eed2bb7f5de03e8adc8111"
