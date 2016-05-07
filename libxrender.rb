@@ -1,6 +1,11 @@
 # libxrender: Build a bottle for Linuxbrew
 class Libxrender < Formula
   desc "X.Org Libraries: libXrender"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "86916def7aab225ce04748be225dee617ee71369df774bcbbc1d1117cede3b65" => :x86_64_linux
+  end
+
   homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url    "http://ftp.x.org/pub/individual/lib/libXrender-0.9.9.tar.bz2"
   sha256 "fc2fe57980a14092426dffcd1f2d9de0987b9d40adea663bd70d6342c0e9be1a"
