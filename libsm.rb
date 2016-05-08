@@ -1,6 +1,11 @@
 # libsm: Build a bottle for Linuxbrew
 class Libsm < Formula
   desc "X.Org Libraries: libSM"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "9f8352dcb67ddc5d59478beea50824af610ad017cd697b703fad842a23586cef" => :x86_64_linux
+  end
+
   homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url    "http://ftp.x.org/pub/individual/lib/libSM-1.2.2.tar.bz2"
   sha256 "0baca8c9f5d934450a70896c4ad38d06475521255ca63b717a6510fdb6e287bd"
