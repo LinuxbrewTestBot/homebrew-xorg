@@ -1,6 +1,11 @@
 # libxv: Build a bottle for Linuxbrew
 class Libxv < Formula
   desc "X.Org Libraries: libXv"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "42d55fb18f9626930bca219df54d20b016c2931696d8bbb1d26ad75f8eedbb28" => :x86_64_linux
+  end
+
   homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url    "http://ftp.x.org/pub/individual/lib/libXv-1.0.10.tar.bz2"
   sha256 "55fe92f8686ce8612e2c1bfaf58c057715534419da700bda8d517b1d97914525"
