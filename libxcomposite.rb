@@ -1,6 +1,11 @@
 # libxcomposite: Build a bottle for Linuxbrew
 class Libxcomposite < Formula
   desc "X.Org Libraries: libXcomposite"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "dee697e5ac68ee9cf255ddadb7ab3d847211ace22493e22442bea3d997d24659" => :x86_64_linux
+  end
+
   homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url    "http://ftp.x.org/pub/individual/lib/libXcomposite-0.4.4.tar.bz2"
   sha256 "ede250cd207d8bee4a338265c3007d7a68d5aca791b6ac41af18e9a2aeb34178"
