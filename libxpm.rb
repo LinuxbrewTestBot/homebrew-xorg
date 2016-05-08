@@ -1,6 +1,10 @@
 # libxpm: Build a bottle for Linuxbrew
 class Libxpm < Formula
   desc "X.Org Libraries: libXpm"
+  bottle do
+    sha256 "a9b2986ef5078c882eee59116658484bf61fdd13d8d1d61b737ff26445d8c8f2" => :x86_64_linux
+  end
+
   homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url    "http://ftp.x.org/pub/individual/lib/libXpm-3.5.11.tar.bz2"
   sha256 "c5bdafa51d1ae30086fac01ab83be8d47fe117b238d3437f8e965434090e041c"
