@@ -1,6 +1,11 @@
 # libfs: Build a bottle for Linuxbrew
 class Libfs < Formula
   desc "X.Org Libraries: libFS"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "cd6286cff0b75492f2ccf77ed7b9a26b0f89f75d178a8b60e660a77bb8710620" => :x86_64_linux
+  end
+
   homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url    "http://ftp.x.org/pub/individual/lib/libFS-1.0.7.tar.bz2"
   sha256 "2e9d4c07026a7401d4fa4ffae86e6ac7fec83f50f3268fa85f52718e479dc4f3"
