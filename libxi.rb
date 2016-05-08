@@ -1,6 +1,11 @@
 # libxi: Build a bottle for Linuxbrew
 class Libxi < Formula
   desc "X.Org Libraries: libXi"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "c537519f07bb35b0605fdfb8a31b13a72af249fa080136cff8a9366e45b37840" => :x86_64_linux
+  end
+
   homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url    "http://ftp.x.org/pub/individual/lib/libXi-1.7.6.tar.bz2"
   sha256 "1f32a552cec0f056c0260bdb32e853cec0673d2f40646ce932ad5a9f0205b7ac"
