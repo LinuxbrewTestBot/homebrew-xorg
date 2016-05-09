@@ -1,6 +1,11 @@
 # libxinerama: Build a bottle for Linuxbrew
 class Libxinerama < Formula
   desc "X.Org Libraries: libXinerama"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "a3ee24b79619182dc6eb91705e6b5ae2eb87f68cf2b02c15513f3734c5a89b13" => :x86_64_linux
+  end
+
   homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url    "http://ftp.x.org/pub/individual/lib/libXinerama-1.1.3.tar.bz2"
   sha256 "7a45699f1773095a3f821e491cbd5e10c887c5a5fce5d8d3fced15c2ff7698e2"
