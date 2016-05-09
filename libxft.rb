@@ -1,6 +1,11 @@
 # libxft: Build a bottle for Linuxbrew
 class Libxft < Formula
   desc "X.Org Libraries: libXft"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "1c214681d1f4ec2feacdf2bd6bd24d9e51b22d24aa2b191c2eda87d85aba0f82" => :x86_64_linux
+  end
+
   homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url    "http://ftp.x.org/pub/individual/lib/libXft-2.3.2.tar.bz2"
   sha256 "f5a3c824761df351ca91827ac221090943ef28b248573486050de89f4bfcdc4c"
