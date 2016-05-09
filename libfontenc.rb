@@ -1,6 +1,10 @@
 # libfontenc: Build a bottle for Linuxbrew
 class Libfontenc < Formula
   desc "X.Org Libraries: libfontenc"
+  bottle do
+    sha256 "62966fcff8983e11ad73ba816c1df0837f4263b94be9ec184e8615047657f845" => :x86_64_linux
+  end
+
   homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url    "http://ftp.x.org/pub/individual/lib/libfontenc-1.1.3.tar.bz2"
   sha256 "70588930e6fc9542ff38e0884778fbc6e6febf21adbab92fd8f524fe60aefd21"
