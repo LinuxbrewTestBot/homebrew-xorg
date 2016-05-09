@@ -1,6 +1,11 @@
 # libxdamage: Build a bottle for Linuxbrew
 class Libxdamage < Formula
   desc "X.Org Libraries: libXdamage"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "399e510a78f416268e583f948595884cf458db56098b779fb94f823240b65a14" => :x86_64_linux
+  end
+
   homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url    "http://ftp.x.org/pub/individual/lib/libXdamage-1.1.4.tar.bz2"
   sha256 "7c3fe7c657e83547f4822bfde30a90d84524efb56365448768409b77f05355ad"
