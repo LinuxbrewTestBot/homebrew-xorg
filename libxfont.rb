@@ -1,6 +1,11 @@
 # libxfont: Build a bottle for Linuxbrew
 class Libxfont < Formula
   desc "X.Org Libraries: libXfont"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "8b71f987f0e359072c3bfdafc05a684bf1ca6325e7868b36701813ab3e643dec" => :x86_64_linux
+  end
+
   homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url    "http://ftp.x.org/pub/individual/lib/libXfont-1.5.1.tar.bz2"
   sha256 "b70898527c73f9758f551bbab612af611b8a0962202829568d94f3edf4d86098"
