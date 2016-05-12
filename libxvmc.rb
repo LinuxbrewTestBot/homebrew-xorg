@@ -1,6 +1,10 @@
 # libxvmc: Build a bottle for Linuxbrew
 class Libxvmc < Formula
   desc "X.Org Libraries: libXvMC"
+  bottle do
+    sha256 "bbd955417a3c14dd67a31a11bac65757d8fca143fca2895404ab04aad116637b" => :x86_64_linux
+  end
+
   homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url    "http://ftp.x.org/pub/individual/lib/libXvMC-1.0.9.tar.bz2"
   sha256 "0703d7dff6ffc184f1735ca5d4eb9dbb402b522e08e008f2f96aee16c40a5756"
