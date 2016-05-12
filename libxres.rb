@@ -1,6 +1,11 @@
 # libxres: Build a bottle for Linuxbrew
 class Libxres < Formula
   desc "X.Org Libraries: libXres"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "0985d29cbc53e7afdf8b0f01acc5ad3b39bdd9a036a0f773f25c6199b97fc5fe" => :x86_64_linux
+  end
+
   homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url    "http://ftp.x.org/pub/individual/lib/libXres-1.0.7.tar.bz2"
   sha256 "26899054aa87f81b17becc68e8645b240f140464cf90c42616ebb263ec5fa0e5"
