@@ -1,6 +1,11 @@
 # libxrandr: Build a bottle for Linuxbrew
 class Libxrandr < Formula
   desc "X.Org Libraries: libXrandr"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "6d362e11582df8ff7a9e48c24fd2708287184e82fd82909fccfc55c270d13dd9" => :x86_64_linux
+  end
+
   homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url    "http://ftp.x.org/pub/individual/lib/libXrandr-1.5.0.tar.bz2"
   sha256 "6f864959b7fc35db11754b270d71106ef5b5cf363426aa58589cb8ac8266de58"
