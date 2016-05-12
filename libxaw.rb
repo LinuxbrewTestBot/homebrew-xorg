@@ -1,6 +1,10 @@
 # libxaw: Build a bottle for Linuxbrew
 class Libxaw < Formula
   desc "X.Org Libraries: libXaw"
+  bottle do
+    sha256 "427db63fe8e595a92a5a2de288137a57d7eff69aeb2764f41b758aab2f6bb305" => :x86_64_linux
+  end
+
   homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url    "http://ftp.x.org/pub/individual/lib/libXaw-1.0.13.tar.bz2"
   sha256 "8ef8067312571292ccc2bbe94c41109dcf022ea5a4ec71656a83d8cce9edb0cd"
