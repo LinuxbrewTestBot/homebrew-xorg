@@ -1,6 +1,11 @@
 # libxxf86vm: Build a bottle for Linuxbrew
 class Libxxf86vm < Formula
   desc "X.Org Libraries: libXxf86vm"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "e15486ac648419eadda5f5c394438f49d6b7b50dae3a297af61a6a7cf9a1ef03" => :x86_64_linux
+  end
+
   homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url    "http://ftp.x.org/pub/individual/lib/libXxf86vm-1.1.4.tar.bz2"
   sha256 "afee27f93c5f31c0ad582852c0fb36d50e4de7cd585fcf655e278a633d85cd57"
