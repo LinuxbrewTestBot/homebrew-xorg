@@ -1,6 +1,10 @@
 # xcb-proto: Build a bottle for Linuxbrew
 class XcbProto < Formula
   desc "XML-XCB protocol descriptions that libxcb uses to generate the majority of its code and API"
+  bottle do
+    sha256 "23ccadabc4d8eb1d9a396c6c6ed1391b5ac0af0296246773a3fccf08ed9dda21" => :x86_64_linux
+  end
+
   homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url    "http://xcb.freedesktop.org/dist/xcb-proto-1.11.tar.bz2"
   sha256 "b4aceee6502a0ce45fc39b33c541a2df4715d00b72e660ebe8c5bb444771e32e"
