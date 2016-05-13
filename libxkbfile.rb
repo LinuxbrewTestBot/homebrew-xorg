@@ -1,6 +1,11 @@
 # libxkbfile: Build a bottle for Linuxbrew
 class Libxkbfile < Formula
   desc "X.Org Libraries: libxkbfile"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "298c6f3d05f92b0b4bc0aebe9c91fede70d5535841114e74a27b835d06dffce5" => :x86_64_linux
+  end
+
   homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url    "http://ftp.x.org/pub/individual/lib/libxkbfile-1.0.9.tar.bz2"
   sha256 "51817e0530961975d9513b773960b4edd275f7d5c72293d5a151ed4f42aeb16a"
