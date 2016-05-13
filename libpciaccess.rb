@@ -1,6 +1,11 @@
 # libpciaccess: Build a bottle for Linuxbrew
 class Libpciaccess < Formula
   desc "X.Org Libraries: libpciaccess"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "b0ce22591ed9ec00fccd13a08bb10d93f4b786a4554dba9cd476702c82b8039d" => :x86_64_linux
+  end
+
   homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url    "http://ftp.x.org/pub/individual/lib/libpciaccess-0.13.4.tar.bz2"
   sha256 "07f864654561e4ac8629a0ef9c8f07fbc1f8592d1b6c418431593e9ba2cf2fcf"
