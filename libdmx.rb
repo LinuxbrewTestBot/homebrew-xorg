@@ -1,6 +1,11 @@
 # libdmx: Build a bottle for Linuxbrew
 class Libdmx < Formula
   desc "X.Org Libraries: libdmx"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "ecaf5224f64f66117ad4bbcd6a380086468eb642b807ea93f0573c2d1e8d5e5e" => :x86_64_linux
+  end
+
   homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url    "http://ftp.x.org/pub/individual/lib/libdmx-1.1.3.tar.bz2"
   sha256 "c97da36d2e56a2d7b6e4f896241785acc95e97eb9557465fd66ba2a155a7b201"
