@@ -4,6 +4,10 @@ class Wayland < Formula
   url "http://wayland.freedesktop.org/releases/wayland-1.10.0.tar.xz"
   sha256 "4bf6e790aa6f50ab3825676282ecd75850ec9c4767af96ecb7127b1f3c3d60dc"
 
+  bottle do
+    sha256 "3bf01bfe3ae2090fcd3444a925c546aec8e0528d8b46d5d2b9e418c96246fd61" => :x86_64_linux
+  end
+
   head do
     url "git://anongit.freedesktop.org/wayland/wayland"
   end
