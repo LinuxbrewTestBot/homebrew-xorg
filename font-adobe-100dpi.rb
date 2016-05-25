@@ -2,6 +2,10 @@
 class FontAdobe100dpi < Formula
   desc "X.Org Fonts: font adobe 100dpi"
   homepage "http://www.x.org/"
+  bottle do
+    sha256 "f41d99106899272196572b7747f472699bd9a39aac6fd4019d5912e32e6bd12b" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7font.html
   url    "https://www.x.org/pub/individual/font/font-adobe-100dpi-1.0.3.tar.bz2"
   mirror "http://xorg.freedesktop.org/archive/individual/font/font-adobe-100dpi-1.0.3.tar.bz2"
