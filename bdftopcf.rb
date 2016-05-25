@@ -2,6 +2,11 @@
 class Bdftopcf < Formula
   desc "X.Org Applications: bdftopcf"
   homepage "http://www.x.org/"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "0189f9d16ceacee801ecf1f0ff438fabac5d1ff23ce021b6a7ca1039a25331a2" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7app.html
   url    "https://www.x.org/pub/individual/app/bdftopcf-1.0.5.tar.bz2"
   mirror "http://ftp.x.org/pub/individual/app/bdftopcf-1.0.5.tar.bz2"
