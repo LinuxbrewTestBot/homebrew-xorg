@@ -2,6 +2,10 @@
 class FontAdobeUtopia75dpi < Formula
   desc "X.Org Fonts: font adobe utopia 75dpi"
   homepage "http://www.x.org/"
+  bottle do
+    sha256 "b0cc860d49420e9752e58ff32afd45bec77741f87a82fa28a90ea6e86bc026a3" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7font.html
   url    "https://www.x.org/pub/individual/font/font-adobe-utopia-75dpi-1.0.4.tar.bz2"
   mirror "http://xorg.freedesktop.org/archive/individual/font/font-adobe-utopia-75dpi-1.0.4.tar.bz2"
