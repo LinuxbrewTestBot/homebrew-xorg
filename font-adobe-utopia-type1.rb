@@ -2,6 +2,10 @@
 class FontAdobeUtopiaType1 < Formula
   desc "X.Org Fonts: font adobe utopia type1"
   homepage "http://www.x.org/"
+  bottle do
+    sha256 "2260149266d0818de2534ad48108ff26a697777c690290002259e6edfb13d59c" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7font.html
   url    "https://www.x.org/pub/individual/font/font-adobe-utopia-type1-1.0.4.tar.bz2"
   mirror "http://xorg.freedesktop.org/archive/individual/font/font-adobe-utopia-type1-1.0.4.tar.bz2"
