@@ -2,6 +2,10 @@
 class FontBhType1 < Formula
   desc "X.Org Fonts: font bh type1"
   homepage "http://www.x.org/"
+  bottle do
+    sha256 "2052581dfc1e47a9827aaf85ba312bc37cc59555a8377c8564e07d476e3f94c1" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7font.html
   url    "https://www.x.org/pub/individual/font/font-bh-type1-1.0.3.tar.bz2"
   mirror "http://xorg.freedesktop.org/archive/individual/font/font-bh-type1-1.0.3.tar.bz2"
