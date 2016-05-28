@@ -2,6 +2,10 @@
 class FontBhLucidatypewriter75dpi < Formula
   desc "X.Org Fonts: font bh lucidatypewriter 75dpi"
   homepage "http://www.x.org/"
+  bottle do
+    sha256 "15694a8726181413bbf888615baf08425527eebb03d4205c83d027b7259c003e" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7font.html
   url    "https://www.x.org/pub/individual/font/font-bh-lucidatypewriter-75dpi-1.0.3.tar.bz2"
   mirror "http://xorg.freedesktop.org/archive/individual/font/font-bh-lucidatypewriter-75dpi-1.0.3.tar.bz2"
