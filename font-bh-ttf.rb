@@ -2,6 +2,10 @@
 class FontBhTtf < Formula
   desc "X.Org Fonts: font bh ttf"
   homepage "http://www.x.org/"
+  bottle do
+    sha256 "f01863adce18332c22535971770a6a67a2d2bc111ab93beff33d06b9a8d3e164" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7font.html
   url    "https://www.x.org/pub/individual/font/font-bh-ttf-1.0.3.tar.bz2"
   mirror "http://xorg.freedesktop.org/archive/individual/font/font-bh-ttf-1.0.3.tar.bz2"
