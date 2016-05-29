@@ -2,6 +2,10 @@
 class FontIbmType1 < Formula
   desc "X.Org Fonts: font ibm type1"
   homepage "http://www.x.org/"
+  bottle do
+    sha256 "1869a7e469ffa62c2f64bd0a81b6ff76da16b21aa5a13bd1f40eacc2d736115d" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7font.html
   url    "https://www.x.org/pub/individual/font/font-ibm-type1-1.0.3.tar.bz2"
   mirror "http://xorg.freedesktop.org/archive/individual/font/font-ibm-type1-1.0.3.tar.bz2"
