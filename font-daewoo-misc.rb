@@ -2,6 +2,10 @@
 class FontDaewooMisc < Formula
   desc "X.Org Fonts: font daewoo misc"
   homepage "http://www.x.org/"
+  bottle do
+    sha256 "0d99d58f44256f08785841a8e4e12ec64df5c35abd74ca9e6dcf054293b2390e" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7font.html
   url    "https://www.x.org/pub/individual/font/font-daewoo-misc-1.0.3.tar.bz2"
   mirror "http://xorg.freedesktop.org/archive/individual/font/font-daewoo-misc-1.0.3.tar.bz2"
