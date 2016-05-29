@@ -2,6 +2,10 @@
 class FontIsasMisc < Formula
   desc "X.Org Fonts: font isas misc"
   homepage "http://www.x.org/"
+  bottle do
+    sha256 "de832cdab10f2c5737883c84353b42b1dc2a4013060dfc8aa57e3621d352c988" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7font.html
   url    "https://www.x.org/pub/individual/font/font-isas-misc-1.0.3.tar.bz2"
   mirror "http://xorg.freedesktop.org/archive/individual/font/font-isas-misc-1.0.3.tar.bz2"
