@@ -2,6 +2,10 @@
 class FontCursorMisc < Formula
   desc "X.Org Fonts: font cursor misc"
   homepage "http://www.x.org/"
+  bottle do
+    sha256 "bb1d37bcc3afb9c16410df0b76e276582cbbd9090705e152c25f6d4662001362" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7font.html
   url    "https://www.x.org/pub/individual/font/font-cursor-misc-1.0.3.tar.bz2"
   mirror "http://xorg.freedesktop.org/archive/individual/font/font-cursor-misc-1.0.3.tar.bz2"
