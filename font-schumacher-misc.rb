@@ -2,6 +2,10 @@
 class FontSchumacherMisc < Formula
   desc "X.Org Fonts: font schumacher misc"
   homepage "http://www.x.org/"
+  bottle do
+    sha256 "28b4b4086f41150dd7d19f4f31bab3e51d1c8f735a5b7665845fcef0a39be206" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7font.html
   url    "https://www.x.org/pub/individual/font/font-schumacher-misc-1.1.2.tar.bz2"
   mirror "http://xorg.freedesktop.org/archive/individual/font/font-schumacher-misc-1.1.2.tar.bz2"
