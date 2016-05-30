@@ -2,6 +2,10 @@
 class FontMuttMisc < Formula
   desc "X.Org Fonts: font mutt misc"
   homepage "http://www.x.org/"
+  bottle do
+    sha256 "5c8837af4e8ba9511d30d38d90be64bccd4256daffbdc189bc46c092633ce506" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7font.html
   url    "https://www.x.org/pub/individual/font/font-mutt-misc-1.0.3.tar.bz2"
   mirror "http://xorg.freedesktop.org/archive/individual/font/font-mutt-misc-1.0.3.tar.bz2"
