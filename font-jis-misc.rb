@@ -10,7 +10,8 @@ class FontJisMisc < Formula
   # tag "linuxbrew"
 
   bottle do
-    sha256 "a5f05a677388629d38a95fad40f21593842298b284e83a8f789bdc1c8d20d979" => :x86_64_linux
+    revision 1
+    sha256 "4175a201310704eebc8ec8877ae6d3c3df0be9c393e44c97432b06b89eb5b463" => :x86_64_linux
   end
 
   depends_on "pkg-config" =>  :build
