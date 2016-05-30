@@ -2,6 +2,10 @@
 class FontMiscMisc < Formula
   desc "X.Org Fonts: font misc misc"
   homepage "http://www.x.org/"
+  bottle do
+    sha256 "5fbec6f8904e141da0b44a93e963db72e341eee92ce8d61182f8e5d43ce69f66" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7font.html
   url    "https://www.x.org/pub/individual/font/font-misc-misc-1.1.2.tar.bz2"
   mirror "http://xorg.freedesktop.org/archive/individual/font/font-misc-misc-1.1.2.tar.bz2"
