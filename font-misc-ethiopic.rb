@@ -2,6 +2,10 @@
 class FontMiscEthiopic < Formula
   desc "X.Org Fonts: font misc ethiopic"
   homepage "http://www.x.org/"
+  bottle do
+    sha256 "ca2730d3bfe838fbaaf49bfad6c78db1ce85305cb8abd64cb6a425328a987b94" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7font.html
   url    "https://www.x.org/pub/individual/font/font-misc-ethiopic-1.0.3.tar.bz2"
   mirror "http://xorg.freedesktop.org/archive/individual/font/font-misc-ethiopic-1.0.3.tar.bz2"
