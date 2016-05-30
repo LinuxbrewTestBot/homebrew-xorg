@@ -2,6 +2,10 @@
 class FontMicroMisc < Formula
   desc "X.Org Fonts: font micro misc"
   homepage "http://www.x.org/"
+  bottle do
+    sha256 "7f82a311ef48c929100ca8c25efc4f08e892c46297352cbea64a0e2b625ff778" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7font.html
   url    "https://www.x.org/pub/individual/font/font-micro-misc-1.0.3.tar.bz2"
   mirror "http://xorg.freedesktop.org/archive/individual/font/font-micro-misc-1.0.3.tar.bz2"
