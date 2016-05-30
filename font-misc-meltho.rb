@@ -2,6 +2,10 @@
 class FontMiscMeltho < Formula
   desc "X.Org Fonts: font misc meltho"
   homepage "http://www.x.org/"
+  bottle do
+    sha256 "04873982d689e2bd9ba6ea26b6dc88c9fa3bda752c7d7f5416a90c3f02435663" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7font.html
   url    "https://www.x.org/pub/individual/font/font-misc-meltho-1.0.3.tar.bz2"
   mirror "http://xorg.freedesktop.org/archive/individual/font/font-misc-meltho-1.0.3.tar.bz2"
