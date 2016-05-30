@@ -2,6 +2,10 @@
 class FontMiscCyrillic < Formula
   desc "X.Org Fonts: font misc cyrillic"
   homepage "http://www.x.org/"
+  bottle do
+    sha256 "75be1b09f79b6d72360be15db6959043499b4aa04222c12a196dd749da8edba2" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7font.html
   url    "https://www.x.org/pub/individual/font/font-misc-cyrillic-1.0.3.tar.bz2"
   mirror "http://xorg.freedesktop.org/archive/individual/font/font-misc-cyrillic-1.0.3.tar.bz2"
