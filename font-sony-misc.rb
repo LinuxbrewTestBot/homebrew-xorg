@@ -2,6 +2,10 @@
 class FontSonyMisc < Formula
   desc "X.Org Fonts: font sony misc"
   homepage "http://www.x.org/"
+  bottle do
+    sha256 "c77dc9ca04118b63a147cf8c8fb582f661810e3030cf53e17b28ce1467cf428a" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7font.html
   url    "https://www.x.org/pub/individual/font/font-sony-misc-1.0.3.tar.bz2"
   mirror "http://xorg.freedesktop.org/archive/individual/font/font-sony-misc-1.0.3.tar.bz2"
