@@ -2,6 +2,10 @@
 class FontSunMisc < Formula
   desc "X.Org Fonts: font sun misc"
   homepage "http://www.x.org/"
+  bottle do
+    sha256 "f65fc8eafb10e26312b72b9388b4531c8e96a93e33f837879e7b0afcb04a3de1" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7font.html
   url    "https://www.x.org/pub/individual/font/font-sun-misc-1.0.3.tar.bz2"
   mirror "http://xorg.freedesktop.org/archive/individual/font/font-sun-misc-1.0.3.tar.bz2"
