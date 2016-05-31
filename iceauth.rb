@@ -2,6 +2,11 @@
 class Iceauth < Formula
   desc "X.Org Applications: iceauth"
   homepage "http://www.x.org/"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "85faa34ab775ef0c8f6f539c97490dad0fb14654d3f01cb159e60965bb0e1a67" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7app.html
   url    "https://www.x.org/pub/individual/app/iceauth-1.0.7.tar.bz2"
   mirror "http://ftp.x.org/pub/individual/app/iceauth-1.0.7.tar.bz2"
