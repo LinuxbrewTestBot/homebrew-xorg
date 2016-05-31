@@ -2,6 +2,10 @@
 class FontWinitzkiCyrillic < Formula
   desc "X.Org Fonts: font winitzki cyrillic"
   homepage "http://www.x.org/"
+  bottle do
+    sha256 "19cbf7aa2ee599b84be7cfdc0343b1a6a7a8e78f7e26d89dce0186a90970844a" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7font.html
   url    "https://www.x.org/pub/individual/font/font-winitzki-cyrillic-1.0.3.tar.bz2"
   mirror "http://xorg.freedesktop.org/archive/individual/font/font-winitzki-cyrillic-1.0.3.tar.bz2"
