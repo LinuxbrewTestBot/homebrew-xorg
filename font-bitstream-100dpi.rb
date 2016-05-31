@@ -2,6 +2,10 @@
 class FontBitstream100dpi < Formula
   desc "X.Org Fonts: font bitstream 100dpi"
   homepage "http://www.x.org/"
+  bottle do
+    sha256 "8307791ea5418ed2b4e04adf42db250dd8c61748e0850548033209be1580efb1" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7font.html
   url    "https://www.x.org/pub/individual/font/font-bitstream-100dpi-1.0.3.tar.bz2"
   mirror "http://xorg.freedesktop.org/archive/individual/font/font-bitstream-100dpi-1.0.3.tar.bz2"
