@@ -2,6 +2,10 @@
 class FontXfree86Type1 < Formula
   desc "X.Org Fonts: font xfree86 type1"
   homepage "http://www.x.org/"
+  bottle do
+    sha256 "298bff88234021c2634c000c8fb31df0625edf7fb1f10b86c502ec4ae38228fd" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7font.html
   url    "https://www.x.org/pub/individual/font/font-xfree86-type1-1.0.4.tar.bz2"
   mirror "http://xorg.freedesktop.org/archive/individual/font/font-xfree86-type1-1.0.4.tar.bz2"
