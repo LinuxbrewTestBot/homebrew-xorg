@@ -2,6 +2,11 @@
 class Xkill < Formula
   desc "X.Org Applications: xkill"
   homepage "http://www.x.org/"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "230a7daf447a45a70ec70effac3fecab5c56a3fc62c29987a4f2497e099048a7" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7app.html
   url    "https://www.x.org/pub/individual/app/xkill-1.0.4.tar.bz2"
   mirror "http://ftp.x.org/pub/individual/app/xkill-1.0.4.tar.bz2"
