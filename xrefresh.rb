@@ -2,6 +2,11 @@
 class Xrefresh < Formula
   desc "X.Org Applications: xrefresh"
   homepage "http://www.x.org/"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "d67050f24859d830f0d9abf1427651125cd70027c72e1ec649e8e1bf2b046158" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7app.html
   url    "https://www.x.org/pub/individual/app/xrefresh-1.0.5.tar.bz2"
   mirror "http://ftp.x.org/pub/individual/app/xrefresh-1.0.5.tar.bz2"
