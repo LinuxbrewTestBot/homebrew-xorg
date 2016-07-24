@@ -2,6 +2,11 @@
 class Xpr < Formula
   desc "X.Org Applications: xpr"
   homepage "http://www.x.org/"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "16e431229c4449d346f353b3776293362d252a90f52d6815feefbff7ac28d748" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7app.html
   url    "https://www.x.org/pub/individual/app/xpr-1.0.4.tar.bz2"
   mirror "http://ftp.x.org/pub/individual/app/xpr-1.0.4.tar.bz2"
