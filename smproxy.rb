@@ -2,6 +2,11 @@
 class Smproxy < Formula
   desc "X.Org Applications: smproxy"
   homepage "http://www.x.org/"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "0c02e96efa8483785b137dcae94a9e76f7f2a42a51263a464d5e42aea83a9b11" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7app.html
   url    "https://www.x.org/pub/individual/app/smproxy-1.0.6.tar.bz2"
   mirror "http://ftp.x.org/pub/individual/app/smproxy-1.0.6.tar.bz2"
