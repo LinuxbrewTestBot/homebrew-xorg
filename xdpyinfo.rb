@@ -2,6 +2,11 @@
 class Xdpyinfo < Formula
   desc "X.Org Applications: xdpyinfo"
   homepage "http://www.x.org/"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "5ad449cbcce936b2d12f06b938626c06782f38bce097b6121d639d4df14364b7" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7app.html
   url    "https://www.x.org/pub/individual/app/xdpyinfo-1.3.2.tar.bz2"
   mirror "http://ftp.x.org/pub/individual/app/xdpyinfo-1.3.2.tar.bz2"
