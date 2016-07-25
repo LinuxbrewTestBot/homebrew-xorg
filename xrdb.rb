@@ -2,6 +2,11 @@
 class Xrdb < Formula
   desc "X.Org Applications: xrdb"
   homepage "http://www.x.org/"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "1cb029caf85881e385b1282c82ddbb4fc982998ed480221990f23e96b2b62820" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7app.html
   url    "https://www.x.org/pub/individual/app/xrdb-1.1.0.tar.bz2"
   mirror "http://ftp.x.org/pub/individual/app/xrdb-1.1.0.tar.bz2"
