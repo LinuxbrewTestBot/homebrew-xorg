@@ -2,6 +2,11 @@
 class XcursorThemes < Formula
   desc "X.Org: redglass and whiteglass animated cursor themes"
   homepage "http://www.x.org/"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "5191796c5ae5b8cb6d6e32be715fe4b839e7a060a3abbc6342314fc9c10c72c9" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7app.html
   url    "https://www.x.org/archive/individual/data/xcursor-themes-1.0.4.tar.bz2"
   mirror "http://ftp.x.org/pub/individual/data/xcursor-themes-1.0.4.tar.bz2"
