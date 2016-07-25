@@ -2,6 +2,11 @@
 class Xprop < Formula
   desc "X.Org Applications: xprop"
   homepage "http://www.x.org/"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "88570f896f5181fc75405867ecdabc6d901b5d21dfe54c619430d9b5cb521ec1" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7app.html
   url    "https://www.x.org/pub/individual/app/xprop-1.2.2.tar.bz2"
   mirror "http://ftp.x.org/pub/individual/app/xprop-1.2.2.tar.bz2"
