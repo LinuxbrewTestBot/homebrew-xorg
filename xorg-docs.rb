@@ -1,6 +1,11 @@
 # xorg-docs: Build a bottle for Linuxbrew
 class XorgDocs < Formula
   desc "X.Org ocumentation that doesn't better fit into other packages"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "92ae6d07bfe4465a33e050a408ca9f5f6d3c6b90e8334055d7e885a3ca37a8bd" => :x86_64_linux
+  end
+
   homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url    "http://www.x.org/archive/individual/doc/xorg-docs-1.7.tar.bz2"
   sha256 "b9b1918bd365e9eb29c325e76bb8c4d774d37be707e433fb0af94da35683375f"
