@@ -2,6 +2,11 @@
 class Sessreg < Formula
   desc "X.Org Applications: sessreg"
   homepage "http://www.x.org/"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "17242c86ba919ff7bc10828ef3700ed097cb661508918c1bf8d0c75c748584df" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7app.html
   url    "https://www.x.org/pub/individual/app/sessreg-1.1.0.tar.bz2"
   mirror "http://ftp.x.org/pub/individual/app/sessreg-1.1.0.tar.bz2"
