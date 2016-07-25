@@ -2,6 +2,11 @@
 class XorgCfFiles < Formula
   desc "X.Org Utilities: xorg-cf-files"
   homepage "http://www.x.org/"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "3a198c7af0bc958b6936c9fc8486a54a0fd859c09e0e2f0d2f5e5ce094a04e33" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7app.html
   url    "https://www.x.org/pub/individual/util/xorg-cf-files-1.0.6.tar.bz2"
   mirror "https://www.x.org/archive/individual/util/xorg-cf-files-1.0.6.tar.bz2"
