@@ -2,6 +2,11 @@
 class Xbacklight < Formula
   desc "X.Org Applications: xbacklight"
   homepage "http://www.x.org/"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "3d5616b0ea4f03261672a861e577bee86cb731a956af45f64e40b95d1b53ad68" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7app.html
   url    "https://www.x.org/pub/individual/app/xbacklight-1.2.1.tar.bz2"
   mirror "http://ftp.x.org/pub/individual/app/xbacklight-1.2.1.tar.bz2"
