@@ -2,6 +2,11 @@
 class Xvinfo < Formula
   desc "X.Org Applications: xvinfo"
   homepage "http://www.x.org/"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "500a1d2d594d056a6b4b23d43278a6eeaff7a5c9c7c7c62f9ae487c3c3ed84e9" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7app.html
   url    "https://www.x.org/pub/individual/app/xvinfo-1.1.3.tar.bz2"
   mirror "http://ftp.x.org/pub/individual/app/xvinfo-1.1.3.tar.bz2"
