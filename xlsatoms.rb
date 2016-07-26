@@ -2,6 +2,11 @@
 class Xlsatoms < Formula
   desc "X.Org Applications: xlsatoms"
   homepage "http://www.x.org/"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "acc3460e3384a144e15fef796cc49998f83509ff5bb5a448ff64cfd5c4349ede" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7app.html
   url    "https://www.x.org/pub/individual/app/xlsatoms-1.1.2.tar.bz2"
   mirror "http://ftp.x.org/pub/individual/app/xlsatoms-1.1.2.tar.bz2"
