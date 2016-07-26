@@ -2,6 +2,11 @@
 class Xgamma < Formula
   desc "X.Org Applications: xgamma"
   homepage "http://www.x.org/"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "87fabdb6407145ed9e5e2329b8f3049188f07c42e3e5d52df2c964f7eac68161" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7app.html
   url    "https://www.x.org/pub/individual/app/xgamma-1.0.6.tar.bz2"
   mirror "http://ftp.x.org/pub/individual/app/xgamma-1.0.6.tar.bz2"
