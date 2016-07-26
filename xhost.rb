@@ -2,6 +2,11 @@
 class Xhost < Formula
   desc "X.Org Applications: xhost"
   homepage "http://www.x.org/"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "44654e8fde19bf1d959066ee8377ba29513becfdfe330be5e12958adc0c6caba" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7app.html
   url    "https://www.x.org/pub/individual/app/xhost-1.0.7.tar.bz2"
   mirror "http://ftp.x.org/pub/individual/app/xhost-1.0.7.tar.bz2"
