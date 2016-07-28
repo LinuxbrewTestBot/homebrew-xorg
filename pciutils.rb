@@ -1,6 +1,10 @@
 class Pciutils < Formula
   desc "Programs for inspecting and manipulating configuration of PCI devices"
   homepage "http://www.x.org/"
+  bottle do
+    sha256 "0c1b39d463df363d46eefdfaea06b7c85e97f7d50d91e1f38f1079e09d7033ce" => :x86_64_linux
+  end
+
   url    "https://www.kernel.org/pub/software/utils/pciutils/pciutils-3.5.1.tar.xz"
   sha256 "2bf3a4605a562fb6b8b7673bff85a474a5cf383ed7e4bd8886b4f0939013d42f"
   # tag "linuxbrew"
