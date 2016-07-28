@@ -2,6 +2,11 @@
 class Libevdev < Formula
   desc "Wrapper library for evdev devices"
   homepage "http://www.freedesktop.org"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "46d8b9caf99e497dcf73c77f32b073cfe6ec4d979d5e63e1ddda67176a3ff9cd" => :x86_64_linux
+  end
+
   url    "https://www.freedesktop.org/software/libevdev/libevdev-1.2.2.tar.xz"
   sha256 "860e9a1d5594393ff1f711cdeaf048efe354992019068408abbcfa4914ad6709"
   # tag "linuxbrew"
