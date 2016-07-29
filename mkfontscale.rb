@@ -1,6 +1,11 @@
 class Mkfontscale < Formula
   desc "X.Org Applications: mkfontscale"
   homepage "http://www.x.org/"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "fc801288a76cdad16eabb8301291be740a9e5deac05a906b4485301e73c590a6" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7app.html
   url    "https://www.x.org/pub/individual/app/mkfontscale-1.1.2.tar.bz2"
   mirror "http://ftp.x.org/pub/individual/app/mkfontscale-1.1.2.tar.bz2"
