@@ -4,6 +4,11 @@ class Libdrm < Formula
   url "https://dri.freedesktop.org/libdrm/libdrm-2.4.68.tar.bz2"
   sha256 "5b4bd9a5922929bc716411cb74061fbf31b06ba36feb89bc1358a91a8d0ca9df"
 
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "0d2ff187d04da630e7672166826c030d5a703c6dd025a0d9828f131d75b04262" => :x86_64_linux
+  end
+
   option "without-test", "Skip compile-time tests"
   option "with-static",   "Build static libraries (not recommended)"
   option "with-valgrind", "Build libdrm with valgrind support"
