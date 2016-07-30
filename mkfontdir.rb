@@ -2,6 +2,11 @@
 class Mkfontdir < Formula
   desc "X.Org Applications: mkfontdir"
   homepage "http://www.x.org/"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "b6e91d7d3264faea12876fd7aaceea3f32496298504438d83afeba812423ad10" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7app.html
   url    "https://www.x.org/pub/individual/app/mkfontdir-1.0.7.tar.bz2"
   mirror "http://ftp.x.org/pub/individual/app/mkfontdir-1.0.7.tar.bz2"
