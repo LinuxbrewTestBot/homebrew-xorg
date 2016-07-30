@@ -2,6 +2,11 @@
 class FontUtil < Formula
   desc "X.Org font package creation/installation utilities"
   homepage "http://www.x.org/"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "47b6f86727088a0cf07b2daabe9f036fb87b01973e23cf2867f9cb52e7a5e761" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7font.html
   url    "https://www.x.org/pub/individual/font/font-util-1.3.1.tar.bz2"
   mirror "http://xorg.freedesktop.org/archive/individual/font/font-util-1.3.1.tar.bz2"
