@@ -2,6 +2,10 @@
 class FontBitstreamType1 < Formula
   desc "X.Org Fonts: font bitstream type1"
   homepage "http://www.x.org/"
+  bottle do
+    sha256 "6d71902ad8c2c7921ece2fb273bc3ff371824b233522d44cc627a4f0d6d0be18" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7font.html
   url    "https://www.x.org/pub/individual/font/font-bitstream-type1-1.0.3.tar.bz2"
   mirror "https://xorg.freedesktop.org/archive/individual/font/font-bitstream-type1-1.0.3.tar.bz2"
