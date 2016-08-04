@@ -6,7 +6,8 @@ class Libdrm < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "0d2ff187d04da630e7672166826c030d5a703c6dd025a0d9828f131d75b04262" => :x86_64_linux
+    revision 1
+    sha256 "6ef6de9a587887af2b1f5c7954e64b6d5684213dbd4584c606bc9afe29cbdaa9" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
