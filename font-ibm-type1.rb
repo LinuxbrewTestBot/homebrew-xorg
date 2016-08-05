@@ -10,7 +10,7 @@ class FontIbmType1 < Formula
   # tag "linuxbrew"
 
   bottle do
-    sha256 "1869a7e469ffa62c2f64bd0a81b6ff76da16b21aa5a13bd1f40eacc2d736115d" => :x86_64_linux
+    sha256 "e5557df70a617f487529147dd44834abcc8ee20e364f9ff558adcb0ec38b40b2" => :x86_64_linux
   end
 
   keg_only "Part of Xorg-fonts package"
