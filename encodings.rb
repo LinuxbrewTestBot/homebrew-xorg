@@ -10,7 +10,8 @@ class Encodings < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "08ecde6fe4edbf50e67b7c3464f7b55e51d031e73f81ef344f5b38717725043c" => :x86_64_linux
+    revision 1
+    sha256 "3ebd4a7df86f11e562d16630568e293e95607009c6dad77aa7f42a79b85d5bc4" => :x86_64_linux
   end
 
   keg_only "Part of Xorg-fonts package"
