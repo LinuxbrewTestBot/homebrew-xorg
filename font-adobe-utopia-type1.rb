@@ -10,7 +10,7 @@ class FontAdobeUtopiaType1 < Formula
   # tag "linuxbrew"
 
   bottle do
-    sha256 "2260149266d0818de2534ad48108ff26a697777c690290002259e6edfb13d59c" => :x86_64_linux
+    sha256 "492fa5bec414041c77b6fec828a58490bd8a95955eb8b0963f45adf85d364af3" => :x86_64_linux
   end
 
   keg_only "Part of Xorg-fonts package"
