@@ -10,7 +10,7 @@ class FontXfree86Type1 < Formula
   # tag "linuxbrew"
 
   bottle do
-    sha256 "298bff88234021c2634c000c8fb31df0625edf7fb1f10b86c502ec4ae38228fd" => :x86_64_linux
+    sha256 "560c0596d979274706f85f856203e6058677d1a82c8890b746ad21e2c1b3c8da" => :x86_64_linux
   end
 
   keg_only "Part of Xorg-fonts package"
