@@ -10,7 +10,7 @@ class FontBhType1 < Formula
   # tag "linuxbrew"
 
   bottle do
-    sha256 "2052581dfc1e47a9827aaf85ba312bc37cc59555a8377c8564e07d476e3f94c1" => :x86_64_linux
+    sha256 "f2661f4b46de64ac5cbeb5de96a4b520e02b9a6c49fb05d340d96d571d5479d8" => :x86_64_linux
   end
 
   keg_only "Part of Xorg-fonts package"
