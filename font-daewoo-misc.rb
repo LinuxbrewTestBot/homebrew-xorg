@@ -10,7 +10,7 @@ class FontDaewooMisc < Formula
   # tag "linuxbrew"
 
   bottle do
-    sha256 "0d99d58f44256f08785841a8e4e12ec64df5c35abd74ca9e6dcf054293b2390e" => :x86_64_linux
+    sha256 "82befe88a91fda095936f91e2592ff62ec213e8bcdc716d23ce49869a63915b6" => :x86_64_linux
   end
 
   keg_only "Part of Xorg-fonts package"
