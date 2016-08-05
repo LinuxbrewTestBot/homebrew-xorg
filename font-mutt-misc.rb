@@ -10,7 +10,7 @@ class FontMuttMisc < Formula
   # tag "linuxbrew"
 
   bottle do
-    sha256 "5c8837af4e8ba9511d30d38d90be64bccd4256daffbdc189bc46c092633ce506" => :x86_64_linux
+    sha256 "6375fb662f3f8892cceb5e82779a74038479816fce9fd44920c72804248a366c" => :x86_64_linux
   end
 
   keg_only "Part of Xorg-fonts package"
