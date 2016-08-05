@@ -10,7 +10,7 @@ class FontArabicMisc < Formula
   # tag "linuxbrew"
 
   bottle do
-    sha256 "85afd0f55f2cd1d3543b44e5b034156d0623c06f6485c648166c1328e3f714c4" => :x86_64_linux
+    sha256 "150690eeea069e7edddb42eab16d73d3340bcfb6503787eda47d7a3e459edd10" => :x86_64_linux
   end
 
   depends_on "pkg-config" =>  :build
