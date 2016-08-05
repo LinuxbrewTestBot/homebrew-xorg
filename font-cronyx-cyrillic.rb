@@ -10,7 +10,7 @@ class FontCronyxCyrillic < Formula
   # tag "linuxbrew"
 
   bottle do
-    sha256 "dca7e783946ccb0cbdf8e297d7549a7e3daeaad169a0fddd7cf77ea1188ff9b6" => :x86_64_linux
+    sha256 "94fd339a7f2858e59f0e21c1db0e376ef738f906e6c7175f3dc1defae58bd6d9" => :x86_64_linux
   end
 
   keg_only "Part of Xorg-fonts package"
