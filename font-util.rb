@@ -10,6 +10,7 @@ class FontUtil < Formula
 
   bottle do
     cellar :any_skip_relocation
+    revision 1
     sha256 "47b6f86727088a0cf07b2daabe9f036fb87b01973e23cf2867f9cb52e7a5e761" => :x86_64_linux
   end
 
