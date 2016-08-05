@@ -10,7 +10,7 @@ class FontBhLucidatypewriter100dpi < Formula
   # tag "linuxbrew"
 
   bottle do
-    sha256 "59e3b7522f8d014a0ae3f3a764db22a37930abff4da7ec363f68fa9ee4b5885e" => :x86_64_linux
+    sha256 "1acd5d3c7eb230a2cf8fe4d125522f3893cbb4691eb5d31740965135a3a9e564" => :x86_64_linux
   end
 
   keg_only "Part of Xorg-fonts package"
