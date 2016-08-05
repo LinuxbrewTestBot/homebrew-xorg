@@ -10,7 +10,7 @@ class FontMiscEthiopic < Formula
   # tag "linuxbrew"
 
   bottle do
-    sha256 "ca2730d3bfe838fbaaf49bfad6c78db1ce85305cb8abd64cb6a425328a987b94" => :x86_64_linux
+    sha256 "0d5247e5301246e6d86f50d73901d952d76bc58f9e88973340d61d6d51530557" => :x86_64_linux
   end
 
   keg_only "Part of Xorg-fonts package"
