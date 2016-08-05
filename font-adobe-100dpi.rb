@@ -10,7 +10,7 @@ class FontAdobe100dpi < Formula
   # tag "linuxbrew"
 
   bottle do
-    sha256 "f41d99106899272196572b7747f472699bd9a39aac6fd4019d5912e32e6bd12b" => :x86_64_linux
+    sha256 "9449470dfe1eab078e115c9cc75fc1b727f8d295373dddd43deb193b7dafeffe" => :x86_64_linux
   end
 
   keg_only "Part of Xorg-fonts package"
