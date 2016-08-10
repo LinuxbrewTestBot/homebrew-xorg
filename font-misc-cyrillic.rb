@@ -10,7 +10,8 @@ class FontMiscCyrillic < Formula
   # tag "linuxbrew"
 
   bottle do
-    sha256 "75be1b09f79b6d72360be15db6959043499b4aa04222c12a196dd749da8edba2" => :x86_64_linux
+    revision 1
+    sha256 "ed2282613973a093b8a8ac0741c5694bff2554aab31275f108848911842bdb10" => :x86_64_linux
   end
 
   keg_only "Part of Xorg-fonts package"
