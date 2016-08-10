@@ -10,7 +10,8 @@ class FontMiscMeltho < Formula
   # tag "linuxbrew"
 
   bottle do
-    sha256 "04873982d689e2bd9ba6ea26b6dc88c9fa3bda752c7d7f5416a90c3f02435663" => :x86_64_linux
+    revision 1
+    sha256 "56d1b7bad91893624adb5512c5aea0288666cdbac3490ac1f21739157ccde254" => :x86_64_linux
   end
 
   keg_only "Part of Xorg-fonts package"
