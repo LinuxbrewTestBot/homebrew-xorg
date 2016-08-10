@@ -10,7 +10,8 @@ class FontBitstream100dpi < Formula
   # tag "linuxbrew"
 
   bottle do
-    sha256 "8307791ea5418ed2b4e04adf42db250dd8c61748e0850548033209be1580efb1" => :x86_64_linux
+    revision 1
+    sha256 "a40d7966eb253e422ec2e599ae02ed93b7ea7673a0af160ea52bf4e517157006" => :x86_64_linux
   end
 
   keg_only "Part of Xorg-fonts package"
