@@ -10,7 +10,8 @@ class FontMiscMisc < Formula
   # tag "linuxbrew"
 
   bottle do
-    sha256 "5fbec6f8904e141da0b44a93e963db72e341eee92ce8d61182f8e5d43ce69f66" => :x86_64_linux
+    revision 1
+    sha256 "5587d7e622c5e686d33246e6de879b0bab7904d53a075756787c59bafc5f70c2" => :x86_64_linux
   end
 
   keg_only "Part of Xorg-fonts package"
