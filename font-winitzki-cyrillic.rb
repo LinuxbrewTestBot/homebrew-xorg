@@ -10,7 +10,8 @@ class FontWinitzkiCyrillic < Formula
   # tag "linuxbrew"
 
   bottle do
-    sha256 "19cbf7aa2ee599b84be7cfdc0343b1a6a7a8e78f7e26d89dce0186a90970844a" => :x86_64_linux
+    revision 1
+    sha256 "98a0119d6cf4088c5e5995b2c661afd6fa0e598708f635ba4050fbf2595c4e8a" => :x86_64_linux
   end
 
   depends_on "pkg-config" =>  :build
