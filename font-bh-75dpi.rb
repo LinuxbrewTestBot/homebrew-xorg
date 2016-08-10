@@ -10,7 +10,8 @@ class FontBh75dpi < Formula
   # tag "linuxbrew"
 
   bottle do
-    sha256 "c9e0dedddc74aaf2793b8052e1d8d1bf869d101b1149004e5a1a2f8521a48d0b" => :x86_64_linux
+    revision 1
+    sha256 "cb9456fbee07d12d04a3ce379991095e5353d0d3054ddc959d26eaf35b02ad1f" => :x86_64_linux
   end
 
   keg_only "Part of Xorg-fonts package"
