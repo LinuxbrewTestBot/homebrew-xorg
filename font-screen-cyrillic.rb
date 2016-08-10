@@ -10,7 +10,8 @@ class FontScreenCyrillic < Formula
   # tag "linuxbrew"
 
   bottle do
-    sha256 "27754e120971e753c86a2e2fde9c739c804611933ae390dbceb708dbe0f3d1cb" => :x86_64_linux
+    revision 1
+    sha256 "1cd247690aa38d19927d04f44e0512cc3a47f6a66087093dfc4453c5c62578d1" => :x86_64_linux
   end
 
   keg_only "Part of Xorg-fonts package"
