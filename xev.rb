@@ -2,6 +2,11 @@
 class Xev < Formula
   desc "X.Org Applications: xev"
   homepage "http://www.x.org/"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "797f3a6ae4c84b37a60f3c2e9c1eca9128b5e9defc50209ac97dac48f4b587c1" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7app.html
   url    "https://www.x.org/pub/individual/app/xev-1.2.2.tar.bz2"
   mirror "http://ftp.x.org/pub/individual/app/xev-1.2.2.tar.bz2"
