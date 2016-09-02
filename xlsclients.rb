@@ -2,6 +2,11 @@
 class Xlsclients < Formula
   desc "X.Org Applications: xlsclients"
   homepage "http://www.x.org/"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "5d7dbf8acf9f395456e20cd8b82fb4d118a686924da4311e07e46606d541417d" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7app.html
   url    "https://www.x.org/pub/individual/app/xlsclients-1.1.3.tar.bz2"
   mirror "http://ftp.x.org/pub/individual/app/xlsclients-1.1.3.tar.bz2"
