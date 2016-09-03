@@ -6,8 +6,9 @@ class Compositeproto < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "4b1bf94e444d74a4acd8982fed297523b299373b72c775e98e008e7a9b5ba8c8" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "afe434289c0d920b6b10ffe735f313cbeca95aef1a0ba8177da2bd8897f4adc1" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
