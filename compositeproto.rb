@@ -10,8 +10,8 @@ class Compositeproto < Formula
     sha256 "4b1bf94e444d74a4acd8982fed297523b299373b72c775e98e008e7a9b5ba8c8" => :x86_64_linux
   end
 
-  depends_on "pkg-config"         =>  :build
-  depends_on "util-macros"        =>  :build
+  depends_on "pkg-config" => :build
+  depends_on "util-macros" => :build
 
   def install
     args = %W[
