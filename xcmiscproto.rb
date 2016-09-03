@@ -6,8 +6,9 @@ class Xcmiscproto < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "46caab02275016fa14276b31198a280a928336004767f5808a78617efbb8814f" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "feea9c90800ea3bc5d010cfec026e4613e69d8e7fe6a2bdbfbe5811bb8fcb1b3" => :x86_64_linux
   end
 
   option "with-specs",  "Build specifications"
