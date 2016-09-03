@@ -10,8 +10,8 @@ class Fixesproto < Formula
     sha256 "dcfed30e21197c8d4c9384e9d1e5304c49983d4866f0186ebe2fdf06e80a4801" => :x86_64_linux
   end
 
-  depends_on "pkg-config"         =>  :build
-  depends_on "util-macros"        =>  :build
+  depends_on "pkg-config" => :build
+  depends_on "util-macros" => :build
 
   def install
     args = %W[
