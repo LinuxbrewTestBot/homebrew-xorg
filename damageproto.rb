@@ -10,8 +10,8 @@ class Damageproto < Formula
     sha256 "97bf4f9ad52aefdcdb9169c0a436c38d12e1db32db65b234073e04d06a3f02bd" => :x86_64_linux
   end
 
-  depends_on "pkg-config"         =>  :build
-  depends_on "util-macros"        =>  :build
+  depends_on "pkg-config" => :build
+  depends_on "util-macros" => :build
 
   def install
     args = %W[
