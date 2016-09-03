@@ -10,8 +10,8 @@ class Dmxproto < Formula
     sha256 "6bda1fce027fe844c6231d10a6b1d5c0f2c2e3931f8327b5d93fcfd9581029af" => :x86_64_linux
   end
 
-  depends_on "pkg-config"         =>  :build
-  depends_on "util-macros"        =>  :build
+  depends_on "pkg-config" => :build
+  depends_on "util-macros" => :build
 
   def install
     args = %W[
