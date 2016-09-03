@@ -6,8 +6,9 @@ class Scrnsaverproto < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "95e9cd1b7784a93ae47b0a474e83653bdb0bed950852c4dff163fee559b50544" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "d2219f38a72c34152fbcd9766f7cae62059582bb642d3955be77d4f21e194470" => :x86_64_linux
   end
 
   option "with-specs",  "Build specifications"
