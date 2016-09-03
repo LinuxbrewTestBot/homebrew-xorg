@@ -6,7 +6,8 @@ class Libxvmc < Formula
   # tag "linuxbrew"
 
   bottle do
-    sha256 "bbd955417a3c14dd67a31a11bac65757d8fca143fca2895404ab04aad116637b" => :x86_64_linux
+    rebuild 1
+    sha256 "f55b60e1f71700439df1f071c7d5deaf5c0dc245b4230628f915883be23ab7a2" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
