@@ -6,8 +6,9 @@ class Damageproto < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "97bf4f9ad52aefdcdb9169c0a436c38d12e1db32db65b234073e04d06a3f02bd" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "6f85ad91e0b735bb4233f5ebf40ed55812d2fe6cc3b87ba0673fe07b613e3db4" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
