@@ -10,8 +10,8 @@ class Dri2proto < Formula
     sha256 "88361afd628af1a3efd25681666155629841f9174a1e376291770c56d658a802" => :x86_64_linux
   end
 
-  depends_on "pkg-config"         =>  :build
-  depends_on "util-macros"        =>  :build
+  depends_on "pkg-config" => :build
+  depends_on "util-macros" => :build
 
   def install
     args = %W[
