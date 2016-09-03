@@ -2,6 +2,11 @@
 class Xcmsdb < Formula
   desc "X.Org Applications: xcmsdb"
   homepage "http://www.x.org/"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "d5676e7e2e01a4ff146775c05aaa3873fde28451fea6f403266e5e82ab3b0ddf" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7app.html
   url    "https://www.x.org/pub/individual/app/xcmsdb-1.0.5.tar.bz2"
   mirror "http://ftp.x.org/pub/individual/app/xcmsdb-1.0.5.tar.bz2"
