@@ -6,8 +6,9 @@ class Xextproto < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "3fd3b60e950663a08b196c60d4a6ec702afad82c5334232a829d9168f3bd59b6" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "4140ba1131e153623447737d41e661ebecf33da3f927ac3241141e9cb1a093fa" => :x86_64_linux
   end
 
   option "with-specs",  "Build specifications"
