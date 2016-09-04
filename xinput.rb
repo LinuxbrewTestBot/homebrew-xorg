@@ -2,6 +2,11 @@
 class Xinput < Formula
   desc "X.Org Applications: xinput"
   homepage "http://www.x.org/"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "346e245f0b0bea4836e0ad8d268e118958b374c54c2c3cd4965664355067b202" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7app.html
   url    "https://www.x.org/pub/individual/app/xinput-1.6.2.tar.bz2"
   mirror "http://ftp.x.org/pub/individual/app/xinput-1.6.2.tar.bz2"
