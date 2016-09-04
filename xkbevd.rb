@@ -2,6 +2,10 @@
 class Xkbevd < Formula
   desc "X.Org Applications: xkbevd"
   homepage "http://www.x.org/"
+  bottle do
+    sha256 "92d578bf17698d728a06a482156b83c2b9c342df3c4b1095f774ebd25d0b24ab" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7app.html
   url    "https://www.x.org/pub/individual/app/xkbevd-1.1.4.tar.bz2"
   mirror "http://ftp.x.org/pub/individual/app/xkbevd-1.1.4.tar.bz2"
