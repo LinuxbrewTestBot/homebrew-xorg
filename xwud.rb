@@ -2,6 +2,11 @@
 class Xwud < Formula
   desc "X.Org Applications: xwud"
   homepage "http://www.x.org/"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "daa425a235d783858b9d1e27ba1d6090105ad438714e0819afba9f011c43c55a" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7app.html
   url    "https://www.x.org/pub/individual/app/xwud-1.0.4.tar.bz2"
   mirror "http://ftp.x.org/pub/individual/app/xwud-1.0.4.tar.bz2"
