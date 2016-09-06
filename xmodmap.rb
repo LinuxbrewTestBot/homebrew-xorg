@@ -2,6 +2,11 @@
 class Xmodmap < Formula
   desc "X.Org Applications: xmodmap"
   homepage "http://www.x.org/"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "aa467c3ef7804c0609957eaf4cb636fd394d32c1efaf142774ea40b0339f9496" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7app.html
   url    "https://www.x.org/pub/individual/app/xmodmap-1.0.9.tar.bz2"
   mirror "http://ftp.x.org/pub/individual/app/xmodmap-1.0.9.tar.bz2"
