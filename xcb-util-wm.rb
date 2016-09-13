@@ -6,6 +6,7 @@ class XcbUtilWm < Formula
 
   bottle do
     cellar :any_skip_relocation
+    rebuild 1
     sha256 "86fd71256a1ba514acfb1f4018bdb797b8035d45427305d2a6e4f14576fa8e96" => :x86_64_linux
   end
 
