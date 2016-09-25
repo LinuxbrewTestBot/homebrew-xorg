@@ -2,6 +2,10 @@
 class Luit < Formula
   desc "X.Org Applications: luit"
   homepage "http://www.x.org/"
+  bottle do
+    sha256 "a715c922cbe8266de203bc7a3e4dfbbfb30a239326480208fe33d02da51a3776" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7app.html
   url    "https://www.x.org/pub/individual/app/luit-1.1.1.tar.bz2"
   mirror "http://ftp.x.org/pub/individual/app/luit-1.1.1.tar.bz2"
