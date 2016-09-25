@@ -2,6 +2,10 @@
 class Xkbcomp < Formula
   desc "X.Org Applications: xkbcomp"
   homepage "http://www.x.org/"
+  bottle do
+    sha256 "d78b21a398b359dfdd4f008f5e8abe53523147b3edfbad931138a3c17981abd2" => :x86_64_linux
+  end
+
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7app.html
   url    "https://www.x.org/pub/individual/app/xkbcomp-1.3.1.tar.bz2"
   mirror "http://ftp.x.org/pub/individual/app/xkbcomp-1.3.1.tar.bz2"
