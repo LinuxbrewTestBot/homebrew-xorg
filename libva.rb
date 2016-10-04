@@ -4,6 +4,10 @@ class Libva < Formula
   url "https://www.freedesktop.org/software/vaapi/releases/libva/libva-1.7.2.tar.bz2"
   sha256 "5dd61cf16a5648b680e6146a58064e93be11bf4e65a9e4e30f1e9cb8ecfa2c13"
 
+  bottle do
+    sha256 "803105dc50028a7a4a7b11f83becf66cc7f50de7dc396b227e96284b59fbddb1" => :x86_64_linux
+  end
+
   option "with-static", "Build static libraries (not recommended)"
 
   #
