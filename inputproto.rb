@@ -6,8 +6,8 @@ class Inputproto < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "c4ec367162b7b7fdaf076672426134b2b04da6b3c271723dba597ec81c01e6fd" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "9131115dd042851453e924e25a93a91206c776df26c6cde1e7c47d3fcfcb5d09" => :x86_64_linux
   end
 
   option "with-specs",  "Build specifications"
