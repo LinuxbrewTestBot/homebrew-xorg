@@ -114,7 +114,7 @@ class Mesa < Formula
     if build.with?("libva")
       resource("libva").stage do
         args = %W[
-          --prefix=#{Formula["libva"].prefix}
+          --prefix=#{Formula["libva"].opt_prefix}
           --sysconfdir=#{etc}
           --localstatedir=#{var}
           --disable-dependency-tracking
@@ -128,22 +128,22 @@ class Mesa < Formula
         # $ pkg-config --cflags egl | tr ' ' '\n'
         # $ pkg-config --cflags gl  | tr ' ' '\n'
         ENV["EGL_CFLAGS"] = "-I#{include}"
-        ENV.append "EGL_CFLAGS", "-I#{Formula["libdrm"].include}"
-        ENV.append "EGL_CFLAGS", "-I#{Formula["libdrm"].include}/libdrm"
-        ENV.append "EGL_CFLAGS", "-I#{Formula["libxdamage"].include}"
-        ENV.append "EGL_CFLAGS", "-I#{Formula["damageproto"].include}"
-        ENV.append "EGL_CFLAGS", "-I#{Formula["libxfixes"].include}"
-        ENV.append "EGL_CFLAGS", "-I#{Formula["fixesproto"].include}"
-        ENV.append "EGL_CFLAGS", "-I#{Formula["libx11"].include}"
-        ENV.append "EGL_CFLAGS", "-I#{Formula["libxcb"].include}"
-        ENV.append "EGL_CFLAGS", "-I#{Formula["libxxf86vm"].include}"
-        ENV.append "EGL_CFLAGS", "-I#{Formula["libxext"].include}"
-        ENV.append "EGL_CFLAGS", "-I#{Formula["libxau"].include}"
-        ENV.append "EGL_CFLAGS", "-I#{Formula["libxdmcp"].include}"
-        ENV.append "EGL_CFLAGS", "-I#{Formula["xproto"].include}"
-        ENV.append "EGL_CFLAGS", "-I#{Formula["kbproto"].include}"
-        ENV.append "EGL_CFLAGS", "-I#{Formula["xextproto"].include}"
-        ENV.append "EGL_CFLAGS", "-I#{Formula["xf86vidmodeproto"].include}"
+        ENV.append "EGL_CFLAGS", "-I#{Formula["libdrm"].opt_include}"
+        ENV.append "EGL_CFLAGS", "-I#{Formula["libdrm"].opt_include}/libdrm"
+        ENV.append "EGL_CFLAGS", "-I#{Formula["libxdamage"].opt_include}"
+        ENV.append "EGL_CFLAGS", "-I#{Formula["damageproto"].opt_include}"
+        ENV.append "EGL_CFLAGS", "-I#{Formula["libxfixes"].opt_include}"
+        ENV.append "EGL_CFLAGS", "-I#{Formula["fixesproto"].opt_include}"
+        ENV.append "EGL_CFLAGS", "-I#{Formula["libx11"].opt_include}"
+        ENV.append "EGL_CFLAGS", "-I#{Formula["libxcb"].opt_include}"
+        ENV.append "EGL_CFLAGS", "-I#{Formula["libxxf86vm"].opt_include}"
+        ENV.append "EGL_CFLAGS", "-I#{Formula["libxext"].opt_include}"
+        ENV.append "EGL_CFLAGS", "-I#{Formula["libxau"].opt_include}"
+        ENV.append "EGL_CFLAGS", "-I#{Formula["libxdmcp"].opt_include}"
+        ENV.append "EGL_CFLAGS", "-I#{Formula["xproto"].opt_include}"
+        ENV.append "EGL_CFLAGS", "-I#{Formula["kbproto"].opt_include}"
+        ENV.append "EGL_CFLAGS", "-I#{Formula["xextproto"].opt_include}"
+        ENV.append "EGL_CFLAGS", "-I#{Formula["xf86vidmodeproto"].opt_include}"
 
         ENV["GLX_CFLAGS"] = ENV["EGL_CFLAGS"]
 
