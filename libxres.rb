@@ -6,8 +6,9 @@ class Libxres < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "0985d29cbc53e7afdf8b0f01acc5ad3b39bdd9a036a0f773f25c6199b97fc5fe" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "3e5cf0e33f11bb7281094a3a13500022bef903df3f7ff429034a1c9a671ab614" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
