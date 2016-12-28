@@ -4,6 +4,10 @@ class Mesa < Formula
   url "ftp://ftp.freedesktop.org/pub/mesa/12.0.1/mesa-12.0.1.tar.xz"
   sha256 "bab24fb79f78c876073527f515ed871fc9c81d816f66c8a0b051d8d653896389"
 
+  bottle do
+    sha256 "23cf9802b0ca03e9b520aa2c784e5c0400b16fd74511c01f0eb3cd872a8490b5" => :x86_64_linux
+  end
+
   option "without-test", "Skip compile-time tests"
   option "with-static",   "Build static libraries (not recommended)"
 
