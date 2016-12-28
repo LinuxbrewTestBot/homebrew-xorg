@@ -6,8 +6,9 @@ class Libxinerama < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "a3ee24b79619182dc6eb91705e6b5ae2eb87f68cf2b02c15513f3734c5a89b13" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "07258ab6efa4ccec3d7a34dea819ede1f289628c89728fa6815a26e75ea38ac3" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
