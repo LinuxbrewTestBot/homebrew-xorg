@@ -6,8 +6,9 @@ class Libxscrnsaver < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "75cfe204c369532370b5fdebd844d2fa49d006ddeaed9c4642833b7a2e57c9dd" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "8bfadd149045b5ad993d987bbab6ca18aea5ca3d497c397511a88bb5248b7299" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
