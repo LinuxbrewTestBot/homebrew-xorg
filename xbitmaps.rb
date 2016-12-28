@@ -5,8 +5,9 @@ class Xbitmaps < Formula
   sha256 "3671b034356bbc4d32d052808cf646c940ec8b2d1913adac51b1453e41aa1e9d"
 
   bottle do
-    cellar :any
-    sha256 "fb234ad593ff26c68e520b1c33ad27c6668b2cd1c6a569c08f9e6608ce74d9b1" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "974bc725998b7a07ae30749efbe535e02c93f2f992015ae674ba45b6e707118a" => :x86_64_linux
   end
 
   depends_on "pkg-config"  => :build
