@@ -42,8 +42,8 @@ class Mesa < Formula
   end
 
   resource "libva" do
-    url "https://www.freedesktop.org/software/vaapi/releases/libva/libva-1.7.2.tar.bz2"
-    sha256 "5dd61cf16a5648b680e6146a58064e93be11bf4e65a9e4e30f1e9cb8ecfa2c13"
+    url "https://www.freedesktop.org/software/vaapi/releases/libva/libva-1.7.3.tar.bz2"
+    sha256 "22bc139498065a7950d966dbdb000cad04905cbd3dc8f3541f80d36c4670b9d9"
   end
 
   patch :p1 do
