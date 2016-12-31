@@ -5,6 +5,11 @@ class Xkeyboardconfig < Formula
   mirror "ftp://ftp.x.org/pub/individual/data/xkeyboard-config/xkeyboard-config-2.17.tar.bz2"
   sha256 "dec6be44bd31775cdc1ab95bfd75d5f2c0055613eeca8b4e9c6480b183430701"
 
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "9487e7667e83f7fb041c35eb8fca4bbfd4c290eadf1c7f514fa57c662171e8b0" => :x86_64_linux
+  end
+
   depends_on "pkg-config" => :build
   depends_on "xorg" => :build
   depends_on "intltool" => :build
