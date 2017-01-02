@@ -37,8 +37,8 @@ class Mesa < Formula
   #
 
   resource "mako" do
-    url "https://pypi.python.org/packages/7a/ae/925434246ee90b42e8ef57d3b30a0ab7caf9a2de3e449b876c56dcb48155/Mako-1.0.4.tar.gz"
-    sha256 "fed99dbe4d0ddb27a33ee4910d8708aca9ef1fe854e668387a9ab9a90cbf9059"
+    url "https://pypi.python.org/packages/56/4b/cb75836863a6382199aefb3d3809937e21fa4cb0db15a4f4ba0ecc2e7e8e/Mako-1.0.6.tar.gz"
+    sha256 "48559ebd872a8e77f92005884b3d88ffae552812cdf17db6768e5c3be5ebbe0d"
   end
 
   resource "libva" do
@@ -56,6 +56,8 @@ class Mesa < Formula
     ENV["MAKEFLAGS"] = "-j8" if ENV["CIRCLECI"]
 
     inreplace "configure.ac", "$SED -i -e 's/brw_blorp.cpp/brw_blorp.c/'", "# $SED -i -e 's/brw_blorp.cpp/brw_blorp.c/'"
+
+    ENV.prepend_create_path "PYTHONPATH", libexec/"vendor/lib/python2.7/site-packages"
 
     resource("mako").stage do
       system "python", *Language::Python.setup_install_args(libexec/"vendor")
@@ -90,17 +92,14 @@ class Mesa < Formula
       --disable-llvm-shared-libs
       --with-dri-drivers=nouveau,radeon,r200,swrast
       --with-sha1=libsha1
+      --enable-gallium-llvm
     ]
 
-    # --enable-gallium-llvm    | Causes build failure on Travis
-    # --enable-gallium-osmesa
-    # --enable-opencl
+    # enable-opencl => needs libclc
+    # enable-gallium-osmesa => mutually exclusive with enable-osmesa
 
     args << "--enable-static=#{build.with?("static") ? "yes" : "no"}"
-
-    if build.with?("libglvnd")
-      args << "--enable-libglvnd"
-    end
+    args << "--enable-libglvnd" if build.with? "libglvnd"
 
     inreplace "bin/ltmain.sh", /.*seems to be moved"/, '#\1seems to be moved"'
 
