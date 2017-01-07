@@ -6,8 +6,8 @@ class Libxrandr < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "6d362e11582df8ff7a9e48c24fd2708287184e82fd82909fccfc55c270d13dd9" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "e8bc7002f599d1f9cd80b95441a3287d26cbe91147e3c80b27d5e90dfc9e5491" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
