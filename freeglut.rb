@@ -4,6 +4,11 @@ class Freeglut < Formula
   url "https://downloads.sourceforge.net/freeglut/freeglut-3.0.0.tar.gz"
   sha256 "2a43be8515b01ea82bcfa17d29ae0d40bd128342f0930cd1f375f1ff999f76a2"
 
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "d24adf040a246680521bb9e50b7d24da32a03c60b5a66230f4d37ccdc06fb9b7" => :x86_64_linux
+  end
+
   option "with-static", "Build static libraries (not recommended)"
   option "with-demos", "Build optional demo programs (not recommended)"
 
