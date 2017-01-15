@@ -6,8 +6,9 @@ class Xf86vidmodeproto < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "fcf020ee7ae77f134702e0ae849e7d4211e7db404431ef0a02e6076c66e753cd" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "cf3298a96264e0df8e966233e82443128b8aecc2b47ecac370c04e2ca66e320f" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
