@@ -6,8 +6,9 @@ class Glproto < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "ca1b0d27122bae1fd580bf9d46bfb7b925438c5e95ffb834c78bc9cb27d64904" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "9dc0fa467fe19c0c7e23e8f531bb94888c026d69e2755512cad318187b76627e" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
