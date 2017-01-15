@@ -6,8 +6,9 @@ class Presentproto < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "1681a30944a66c9859275787f978fd12a6b2e8e7015b3008612c0c78e5a9b305" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "c343031551fcb220a018c1e90d930b4fbd4128adaf4a009711c1a5568ecaa3c5" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
