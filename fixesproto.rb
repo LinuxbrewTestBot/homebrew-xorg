@@ -6,8 +6,9 @@ class Fixesproto < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "dcfed30e21197c8d4c9384e9d1e5304c49983d4866f0186ebe2fdf06e80a4801" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "8a53f8e2e2151148539e4015c923c76d8c2fd3946e0480578f3ed8e28b579eac" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
