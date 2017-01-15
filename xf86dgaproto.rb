@@ -6,8 +6,9 @@ class Xf86dgaproto < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "99c0abed1c8a54c5cf3e8a6048c9116f0f5450ee56b13cd617fb04569f8b8613" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "4aeae3f4c030ecc0e0abdb4b66895f8bf569337c580637fc9c013c5894588f01" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
