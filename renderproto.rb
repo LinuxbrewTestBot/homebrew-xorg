@@ -6,8 +6,9 @@ class Renderproto < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "212f70f35f2826cf764f65c116f9a0a6182a460adac7389deb6e74ea8cd7f54d" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "f41b3e7d08fd9f273ce6d7a018cbad3c98cc5f08f748371f3927d9b30fe14c76" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
