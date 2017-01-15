@@ -6,8 +6,9 @@ class Dmxproto < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "6bda1fce027fe844c6231d10a6b1d5c0f2c2e3931f8327b5d93fcfd9581029af" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "22508deaeb53265d82ca19f6f7363444aeca134fc9916a527c56e4b8710a353e" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
