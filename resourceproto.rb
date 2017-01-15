@@ -6,8 +6,9 @@ class Resourceproto < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "86232aafd92fda6c30e16b16cf03b17df6178495d13ce31baf47f4ec381e2630" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "66a28b6a451373dcd5631cb8c99815037378f3c24937e5804d7c8f038df17a37" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
