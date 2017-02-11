@@ -5,6 +5,10 @@ class Mesa < Formula
   mirror "ftp://ftp.freedesktop.org/pub/mesa/13.0.4/mesa-13.0.4.tar.xz"
   sha256 "a95d7ce8f7bd5f88585e4be3144a341236d8c0fc91f6feaec59bb8ba3120e726"
 
+  bottle do
+    sha256 "f170b6b46f520bd9c164429beec576fc5ed19e8b8ba27939dba6c5b8de75d9f3" => :x86_64_linux
+  end
+
   option "without-test", "Skip compile-time tests"
   option "with-static", "Build static libraries (not recommended)"
 
