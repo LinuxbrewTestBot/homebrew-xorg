@@ -4,6 +4,10 @@ class Libvdpau < Formula
   url "https://people.freedesktop.org/~aplattner/vdpau/libvdpau-1.1.1.tar.gz"
   sha256 "5fe093302432ef05086ca2ee429c789b7bf843e166d482d166e56859b08bef55"
 
+  bottle do
+    sha256 "80b4154473fc6316c2f36fb2f94b2defd911c5bc990c26a47898a6b680dd381a" => :x86_64_linux
+  end
+
   option "without-test", "Skip compile-time tests"
   option "with-static",   "Build static libraries (not recommended)"
 
