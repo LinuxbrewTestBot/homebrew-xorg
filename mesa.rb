@@ -5,7 +5,7 @@ class Mesa < Formula
   sha256 "39db3d59700159add7f977307d12a7dfe016363e760ad82280ac4168ea668481"
 
   bottle do
-    sha256 "f170b6b46f520bd9c164429beec576fc5ed19e8b8ba27939dba6c5b8de75d9f3" => :x86_64_linux
+    sha256 "c4261b5848761366779d18b7ad50c86798ed1513249da942a7072623823822e3" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
