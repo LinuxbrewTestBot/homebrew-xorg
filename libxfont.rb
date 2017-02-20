@@ -7,7 +7,8 @@ class Libxfont < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "d04f3ffd87f700536a78c81686ce027d3baa39dcfc173f911c2036b4ac78c628" => :x86_64_linux
+    rebuild 1
+    sha256 "b4cfbf258a7019af71f8fa2b7190a53aafe8b1e15a9ae751831e7547f029aca9" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
