@@ -6,8 +6,9 @@ class Recordproto < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "e23cb1e1cb66b34322fdd448fd79c684b38acb1b0fc7c4f0f6231fe4028ea97e" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "0b87da6d1865ab41c2ff762d5a617ec7a7bc7763deb59fa429654fc541e0e664" => :x86_64_linux
   end
 
   option "with-specs", "Build specifications"
