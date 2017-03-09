@@ -6,8 +6,9 @@ class Xf86bigfontproto < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "af0d2b1eedf5ed2a360b8c2b5dfa9d5eed671d178244e7a20fabb3f317cc437a" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "a57b585ef75a5fa7f632becaa94d9aa9fd80246403a5915322d3ea0e9315c639" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
