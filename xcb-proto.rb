@@ -6,7 +6,8 @@ class XcbProto < Formula
   # tag "linuxbrew"
 
   bottle do
-    sha256 "23ccadabc4d8eb1d9a396c6c6ed1391b5ac0af0296246773a3fccf08ed9dda21" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "0ec19b9b90a8235851afea7055e95e03e8c732c900b38d6c687c1aaf785f453d" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
