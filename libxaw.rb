@@ -6,7 +6,8 @@ class Libxaw < Formula
   # tag "linuxbrew"
 
   bottle do
-    sha256 "427db63fe8e595a92a5a2de288137a57d7eff69aeb2764f41b758aab2f6bb305" => :x86_64_linux
+    rebuild 1
+    sha256 "cb23ffe989a2be6f53090070c65d9aa5c3c6001c27dc73f8b207e962a5273529" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
