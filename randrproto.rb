@@ -6,8 +6,9 @@ class Randrproto < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "a9e7fbd62f760ebd53a3b64cfa09d3129c2ce51f4ed43f6c0e048d32697ea1a6" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "375bacd74cef18af6565d23d8ee2c75fc7b35a390c5f5d3e8bbb414173323175" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
