@@ -9,7 +9,8 @@ class Mkfontdir < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "b6e91d7d3264faea12876fd7aaceea3f32496298504438d83afeba812423ad10" => :x86_64_linux
+    rebuild 1
+    sha256 "fcb3c9764623371d80104b30d8601b483366f50e8dd10e613631d7121146b495" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
