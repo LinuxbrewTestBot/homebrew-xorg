@@ -8,8 +8,8 @@ class Mkfontscale < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any_skip_relocation
-    sha256 "fc801288a76cdad16eabb8301291be740a9e5deac05a906b4485301e73c590a6" => :x86_64_linux
+    rebuild 1
+    sha256 "815ce4e92dd2f128880935a92f98ee977df6a01cba1e62f1bfca338233013828" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
