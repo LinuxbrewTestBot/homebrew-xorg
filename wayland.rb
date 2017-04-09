@@ -5,8 +5,7 @@ class Wayland < Formula
   sha256 "69b052c031a61e89af7cc8780893d0da1e301492352aa449dee9345043e6fe51"
 
   bottle do
-    rebuild 1
-    sha256 "b336ab9a676ed35cdd94593313fe0c730629284f17acffd7c3606f0ec82751d8" => :x86_64_linux
+    sha256 "c0fb745a973a1bfd0ea495a1653314f5563ffbc6610ccfb10583c89891523f5b" => :x86_64_linux
   end
 
   head do
