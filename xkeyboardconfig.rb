@@ -7,7 +7,7 @@ class Xkeyboardconfig < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "9487e7667e83f7fb041c35eb8fca4bbfd4c290eadf1c7f514fa57c662171e8b0" => :x86_64_linux
+    sha256 "bad3456766fe1c4dfb31e00cac9d249d1da3f3949d30e129b9abfb369548d1e9" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
