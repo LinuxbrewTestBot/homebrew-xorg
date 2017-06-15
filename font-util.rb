@@ -1,6 +1,6 @@
 class FontUtil < Formula
   desc "X.Org font package creation/installation utilities"
-  homepage "http://www.x.org/"
+  homepage "https://www.x.org/"
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7font.html
   url    "https://www.x.org/pub/individual/font/font-util-1.3.1.tar.bz2"
   mirror "https://xorg.freedesktop.org/archive/individual/font/font-util-1.3.1.tar.bz2"

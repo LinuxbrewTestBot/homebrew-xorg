@@ -1,6 +1,6 @@
 class Libxscrnsaver < Formula
   desc "X.Org Libraries: libXScrnSaver"
-  homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
+  homepage "https://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url    "http://ftp.x.org/pub/individual/lib/libXScrnSaver-1.2.2.tar.bz2"
   sha256 "8ff1efa7341c7f34bcf9b17c89648d6325ddaae22e3904e091794e0b4426ce1d"
   # tag "linuxbrew"

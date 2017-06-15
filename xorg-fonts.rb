@@ -1,6 +1,6 @@
 class XorgFonts < Formula
   desc "X.Org Fonts"
-  homepage "http://www.x.org/"
+  homepage "https://www.x.org/"
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url "https://gist.githubusercontent.com/maxim-belkin/6fd6422cbe4da6ea0555d7a8d9911bc2/raw/c38d109967382d35f9f8a89542c18abbfb27cf88/README.md"
   version  "20160522"

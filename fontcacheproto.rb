@@ -1,6 +1,6 @@
 class Fontcacheproto < Formula
   desc "X.Org Proto: fontcacheproto"
-  homepage "http://www.x.org/"
+  homepage "https://www.x.org/"
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7app.html
   url    "https://www.x.org/pub/individual/proto/fontcacheproto-0.1.3.tar.bz2"
   mirror "https://ftp.x.org/pub/individual/proto/fontcacheproto-0.1.3.tar.bz2"

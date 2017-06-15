@@ -1,6 +1,6 @@
 class Xf86driproto < Formula
   desc "X.Org Protocol Headers: xf86driproto"
-  homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
+  homepage "https://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url "https://www.x.org/archive/individual/proto/xf86driproto-2.1.1.tar.bz2"
   sha256 "9c4b8d7221cb6dc4309269ccc008a22753698ae9245a398a59df35f1404d661f"
   # tag "linuxbrew"

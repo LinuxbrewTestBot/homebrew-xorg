@@ -1,6 +1,6 @@
 class Mkfontscale < Formula
   desc "X.Org Applications: mkfontscale"
-  homepage "http://www.x.org/"
+  homepage "https://www.x.org/"
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7app.html
   url    "https://www.x.org/pub/individual/app/mkfontscale-1.1.2.tar.bz2"
   mirror "http://ftp.x.org/pub/individual/app/mkfontscale-1.1.2.tar.bz2"

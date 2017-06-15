@@ -1,6 +1,6 @@
 class Xcmiscproto < Formula
   desc "X.Org Protocol Headers: xcmiscproto"
-  homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
+  homepage "https://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url "https://www.x.org/archive/individual/proto/xcmiscproto-1.2.2.tar.bz2"
   sha256 "b13236869372256c36db79ae39d54214172677fb79e9cdc555dceec80bd9d2df"
   # tag "linuxbrew"

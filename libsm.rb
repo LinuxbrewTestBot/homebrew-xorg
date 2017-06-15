@@ -1,6 +1,6 @@
 class Libsm < Formula
   desc "X.Org Libraries: libSM"
-  homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
+  homepage "https://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url    "http://ftp.x.org/pub/individual/lib/libSM-1.2.2.tar.bz2"
   sha256 "0baca8c9f5d934450a70896c4ad38d06475521255ca63b717a6510fdb6e287bd"
   # tag "linuxbrew"

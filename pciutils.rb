@@ -1,6 +1,6 @@
 class Pciutils < Formula
   desc "Programs for inspecting and manipulating configuration of PCI devices"
-  homepage "http://www.x.org/"
+  homepage "https://www.x.org/"
   bottle do
     sha256 "a824aca17f0b34dcc21ea46674213d0a71d213e2bb69e7314f8d8113468cb649" => :x86_64_linux
   end

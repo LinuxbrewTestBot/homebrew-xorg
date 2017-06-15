@@ -1,6 +1,6 @@
 class Xkbutils < Formula
   desc "X.Org Applications: xkbutils"
-  homepage "http://www.x.org/"
+  homepage "https://www.x.org/"
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7app.html
   url    "https://www.x.org/pub/individual/app/xkbutils-1.0.4.tar.bz2"
   mirror "http://ftp.x.org/pub/individual/app/xkbutils-1.0.4.tar.bz2"

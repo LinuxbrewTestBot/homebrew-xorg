@@ -1,6 +1,6 @@
 class Bigreqsproto < Formula
   desc "X.Org Protocol Headers: bigreqsproto"
-  homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
+  homepage "https://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url "https://www.x.org/archive/individual/proto/bigreqsproto-1.1.2.tar.bz2"
   sha256 "462116ab44e41d8121bfde947321950370b285a5316612b8fce8334d50751b1e"
   # tag "linuxbrew"

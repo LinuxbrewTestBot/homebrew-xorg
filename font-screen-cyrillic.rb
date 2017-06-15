@@ -1,6 +1,6 @@
 class FontScreenCyrillic < Formula
   desc "X.Org Fonts: font screen cyrillic"
-  homepage "http://www.x.org/"
+  homepage "https://www.x.org/"
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7font.html
   url    "https://www.x.org/pub/individual/font/font-screen-cyrillic-1.0.4.tar.bz2"
   mirror "https://xorg.freedesktop.org/archive/individual/font/font-screen-cyrillic-1.0.4.tar.bz2"

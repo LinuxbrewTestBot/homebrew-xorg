@@ -1,6 +1,6 @@
 class Xorg < Formula
   desc "X.Org X11 libraries"
-  homepage "http://www.x.org/"
+  homepage "https://www.x.org/"
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url "https://raw.githubusercontent.com/Linuxbrew/homebrew-xorg/317ef5e60c62298a28f08bb44ca6a09d79793735/README.md"
   version "20170115"

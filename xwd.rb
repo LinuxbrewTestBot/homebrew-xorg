@@ -1,6 +1,6 @@
 class Xwd < Formula
   desc "X.Org Applications: xwd"
-  homepage "http://www.x.org/"
+  homepage "https://www.x.org/"
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7app.html
   url    "https://www.x.org/pub/individual/app/xwd-1.0.6.tar.bz2"
   mirror "http://ftp.x.org/pub/individual/app/xwd-1.0.6.tar.bz2"

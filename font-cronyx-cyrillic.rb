@@ -1,6 +1,6 @@
 class FontCronyxCyrillic < Formula
   desc "X.Org Fonts: font cronyx cyrillic"
-  homepage "http://www.x.org/"
+  homepage "https://www.x.org/"
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7font.html
   url    "https://www.x.org/pub/individual/font/font-cronyx-cyrillic-1.0.3.tar.bz2"
   mirror "https://xorg.freedesktop.org/archive/individual/font/font-cronyx-cyrillic-1.0.3.tar.bz2"

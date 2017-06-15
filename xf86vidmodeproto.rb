@@ -1,6 +1,6 @@
 class Xf86vidmodeproto < Formula
   desc "X.Org Protocol Headers: xf86vidmodeproto"
-  homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
+  homepage "https://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url "https://www.x.org/archive/individual/proto/xf86vidmodeproto-2.3.1.tar.bz2"
   sha256 "45d9499aa7b73203fd6b3505b0259624afed5c16b941bd04fcf123e5de698770"
   # tag "linuxbrew"

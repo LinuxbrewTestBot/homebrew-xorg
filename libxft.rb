@@ -1,6 +1,6 @@
 class Libxft < Formula
   desc "X.Org Libraries: libXft"
-  homepage "http://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
+  homepage "https://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url    "http://ftp.x.org/pub/individual/lib/libXft-2.3.2.tar.bz2"
   sha256 "f5a3c824761df351ca91827ac221090943ef28b248573486050de89f4bfcdc4c"
   # tag "linuxbrew"

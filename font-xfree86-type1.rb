@@ -1,6 +1,6 @@
 class FontXfree86Type1 < Formula
   desc "X.Org Fonts: font xfree86 type1"
-  homepage "http://www.x.org/"
+  homepage "https://www.x.org/"
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7font.html
   url    "https://www.x.org/pub/individual/font/font-xfree86-type1-1.0.4.tar.bz2"
   mirror "https://xorg.freedesktop.org/archive/individual/font/font-xfree86-type1-1.0.4.tar.bz2"

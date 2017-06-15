@@ -1,6 +1,6 @@
 class XcursorThemes < Formula
   desc "X.Org: redglass and whiteglass animated cursor themes"
-  homepage "http://www.x.org/"
+  homepage "https://www.x.org/"
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7app.html
   url    "https://www.x.org/archive/individual/data/xcursor-themes-1.0.4.tar.bz2"
   mirror "http://ftp.x.org/pub/individual/data/xcursor-themes-1.0.4.tar.bz2"

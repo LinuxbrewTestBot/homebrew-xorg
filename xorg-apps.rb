@@ -1,6 +1,6 @@
 class XorgApps < Formula
   desc "X.Org Applications"
-  homepage "http://www.x.org/"
+  homepage "https://www.x.org/"
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url "https://gist.githubusercontent.com/maxim-belkin/6916a35b777799d4e71b213eaae8a980/raw/974f263825c96a43310fca7a8106d0c7c015b681/README.md"
   version  "20160522"

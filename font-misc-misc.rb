@@ -1,6 +1,6 @@
 class FontMiscMisc < Formula
   desc "X.Org Fonts: font misc misc"
-  homepage "http://www.x.org/"
+  homepage "https://www.x.org/"
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7font.html
   url    "https://www.x.org/pub/individual/font/font-misc-misc-1.1.2.tar.bz2"
   mirror "https://xorg.freedesktop.org/archive/individual/font/font-misc-misc-1.1.2.tar.bz2"

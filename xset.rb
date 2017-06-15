@@ -1,6 +1,6 @@
 class Xset < Formula
   desc "X.Org Applications: xset"
-  homepage "http://www.x.org/"
+  homepage "https://www.x.org/"
   ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7app.html
   url    "https://www.x.org/pub/individual/app/xset-1.2.3.tar.bz2"
   mirror "http://ftp.x.org/pub/individual/app/xset-1.2.3.tar.bz2"
