@@ -6,8 +6,9 @@ class Xtrans < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "90e5852ee25ed85ba47acaa55723a0506c8313c599671b892024ac1766b15449" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "611dd959d7c4dc80e1d81506a20106cb6c3b04113eeab0430c186e07777ff3b7" => :x86_64_linux
   end
 
   option "with-docs", "Build documentation"
