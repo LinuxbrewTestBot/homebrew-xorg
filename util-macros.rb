@@ -8,7 +8,8 @@ class UtilMacros < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "cd91876f086c7e73b4c42b904b2e86eab4aed4a9cfbbb92c9f554f75e993eae9" => :x86_64_linux
+    rebuild 1
+    sha256 "2e71510dcf0df089bd8da13b618219f7fd754a0ca442c473ad6d54b2f93c8bfd" => :x86_64_linux
   end
 
   def install
