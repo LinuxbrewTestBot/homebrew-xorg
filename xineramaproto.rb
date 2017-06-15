@@ -6,8 +6,9 @@ class Xineramaproto < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "42b4c1562aa8cfa5fc8ed49a2226bac13eb01c1b25d00e147870b342dea99ff2" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "22d091a2fe220bf052b68b4c114b9f6bef0cbb925609bfd9f1c8487e7d5599fa" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
