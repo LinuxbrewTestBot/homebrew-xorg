@@ -6,8 +6,9 @@ class Dri3proto < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "788fe42333de8a07ac603def01eafa4d70cda9b7582f1cf7e0cd063d2dcbfbba" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "c8e89415a46c583ddd5b9d66d37fce748187781006b47f224df1bcb47c743fc7" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
