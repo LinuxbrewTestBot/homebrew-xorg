@@ -8,7 +8,7 @@ class Xkbcomp < Formula
   # tag "linuxbrew"
 
   bottle do
-    sha256 "d78b21a398b359dfdd4f008f5e8abe53523147b3edfbad931138a3c17981abd2" => :x86_64_linux
+    sha256 "06e98fce274363e5105d4ebedd1f8a38e8c82ed12591e67108fa5b9a0424e74d" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
