@@ -6,7 +6,8 @@ class Libfontenc < Formula
   # tag "linuxbrew"
 
   bottle do
-    sha256 "62966fcff8983e11ad73ba816c1df0837f4263b94be9ec184e8615047657f845" => :x86_64_linux
+    rebuild 1
+    sha256 "c8d655db8fce55ad83510f21b017757f01392b1b1610d6e4a6f5e411f729e2d1" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
