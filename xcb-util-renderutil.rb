@@ -4,6 +4,10 @@ class XcbUtilRenderutil < Formula
   url "https://xcb.freedesktop.org/dist/xcb-util-renderutil-0.3.9.tar.bz2"
   sha256 "c6e97e48fb1286d6394dddb1c1732f00227c70bd1bedb7d1acabefdd340bea5b"
 
+  bottle do
+    sha256 "c5c2541b00f2115d96f741b13959d927853e8845f91fda7a1c0af06a8100594e" => :x86_64_linux
+  end
+
   option "with-static", "Build static libraries (not recommended)"
   option "with-docs", "Regenerate documentation (requires doxygen)"
 
