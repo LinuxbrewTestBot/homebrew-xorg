@@ -6,7 +6,8 @@ class Libxcursor < Formula
   # tag "linuxbrew"
 
   bottle do
-    sha256 "b416d2de1edef471cebc301b9865ae1ccd79480a6bae60685b637b2ca65f308a" => :x86_64_linux
+    rebuild 1
+    sha256 "466a33b820bab01e87a7c24b301cb890316b87fbf5fe08ce33d54e704a62e63b" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
