@@ -7,7 +7,8 @@ class Inputproto < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "9131115dd042851453e924e25a93a91206c776df26c6cde1e7c47d3fcfcb5d09" => :x86_64_linux
+    rebuild 1
+    sha256 "1413ccd3422b1689c62a09671a769a7b2cc01745426e0ff0fad70d4f750cec1c" => :x86_64_linux
   end
 
   option "with-specs",  "Build specifications"
