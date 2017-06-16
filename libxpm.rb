@@ -6,7 +6,8 @@ class Libxpm < Formula
   # tag "linuxbrew"
 
   bottle do
-    sha256 "8c41260ec185a5a4ae26c6e3b173f7fcdd46d26b1807f2b749595eac1c344d9e" => :x86_64_linux
+    rebuild 1
+    sha256 "3745acb0e88693f882f6ae53d6166f74c944d958f8caa71717ebddf1d2380a75" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
