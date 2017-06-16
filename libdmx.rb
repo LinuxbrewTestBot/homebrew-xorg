@@ -6,8 +6,8 @@ class Libdmx < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "ecaf5224f64f66117ad4bbcd6a380086468eb642b807ea93f0573c2d1e8d5e5e" => :x86_64_linux
+    rebuild 1
+    sha256 "d865a59bb10842319979a823c1b4608931680f159dbeb0e3c04512ede870564c" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
