@@ -6,8 +6,8 @@ class Libxfixes < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any_skip_relocation
-    sha256 "de00528cfeec544e7e0a6dea7be947dc098440268002f68f215587a10e692ce9" => :x86_64_linux
+    rebuild 1
+    sha256 "e03f2708085022f5a8331dd2c9c74b7c422c3b5bcd461f3c139c1f6f70fabe9f" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
