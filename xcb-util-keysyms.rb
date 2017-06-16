@@ -4,6 +4,10 @@ class XcbUtilKeysyms < Formula
   url "https://xcb.freedesktop.org/dist/xcb-util-keysyms-0.4.0.tar.bz2"
   sha256 "0ef8490ff1dede52b7de533158547f8b454b241aa3e4dcca369507f66f216dd9"
 
+  bottle do
+    sha256 "8578b66c3d5820baab0296d384be4a1c0de33875b00d5b49b535b7fa560005cd" => :x86_64_linux
+  end
+
   option "without-test", "Skip compile-time tests"
   option "with-static", "Build static libraries (not recommended)"
   option "with-docs", "Regenerate documentation (requires doxygen)"
