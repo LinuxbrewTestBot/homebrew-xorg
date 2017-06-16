@@ -6,8 +6,9 @@ class Libxau < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "d1582ba4746a6b2c326bf25abb627c80b1302d17ee08158eabf3f2e6205b2ec4" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "01df047c91f7b0d57652bef71c640341c7c2c2225496ec790e59dfaa68dfbdf6" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
