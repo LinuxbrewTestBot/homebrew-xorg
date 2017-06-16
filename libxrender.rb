@@ -6,8 +6,8 @@ class Libxrender < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any_skip_relocation
-    sha256 "f97a8833f5bcaabd12e10bac82a644e18f8c39dc4b637b2afaf4227122ce907c" => :x86_64_linux
+    rebuild 1
+    sha256 "7f6ce72da72c524093038e918489d0e5f34d7b33c8bf1ecfeceb67dced2c6764" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
