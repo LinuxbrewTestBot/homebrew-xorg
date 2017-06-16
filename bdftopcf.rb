@@ -8,8 +8,8 @@ class Bdftopcf < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "0189f9d16ceacee801ecf1f0ff438fabac5d1ff23ce021b6a7ca1039a25331a2" => :x86_64_linux
+    rebuild 1
+    sha256 "960ea1d94e1572993a97907262b6917eb9b7e7b61074a9ec4eda49f413cd9a29" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
