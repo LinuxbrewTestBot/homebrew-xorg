@@ -5,8 +5,8 @@ class XcbUtil < Formula
   sha256 "46e49469cb3b594af1d33176cd7565def2be3fa8be4371d62271fabb5eae50e9"
 
   bottle do
-    cellar :any
-    sha256 "c9b90cb2c9fa611e3b5d31a52d544fd6a173fc33cfd6f057f876ab7112bac179" => :x86_64_linux
+    rebuild 1
+    sha256 "81aa67f72d0b37c7c3b9cb4b234b554fa8480edeecbd020aa7ac0df119d73bb6" => :x86_64_linux
   end
 
   option "with-static", "Build static libraries (not recommended)"
