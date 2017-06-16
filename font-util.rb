@@ -10,7 +10,8 @@ class FontUtil < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "47b6f86727088a0cf07b2daabe9f036fb87b01973e23cf2867f9cb52e7a5e761" => :x86_64_linux
+    rebuild 1
+    sha256 "de3766d621c2597077cb1671088d99d9589381b5977bec436a430f9166a2a046" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
