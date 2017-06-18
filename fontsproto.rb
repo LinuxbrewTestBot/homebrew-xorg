@@ -6,8 +6,9 @@ class Fontsproto < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "5d04e66c6c6e5c17731f3d732f1c093b44009dbd07b22c1b629593d1cdd497fd" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "a9a19a42ff5c8991d489e416146e82162ea1b458b7242515db7a2d278e05abc2" => :x86_64_linux
   end
 
   option "with-specs", "Build specifications"
