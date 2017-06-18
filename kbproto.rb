@@ -6,8 +6,9 @@ class Kbproto < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "3d6b25f6545716ad960db544ddd46b60c5e73c46fcc4a8b6ebea34e8fcdaf478" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "8fc87074eac052b08cf98c1d57e365d85ffb24a8f8a91f4b061d67f252a50af2" => :x86_64_linux
   end
 
   option "with-specs", "Build specifications"
