@@ -6,7 +6,8 @@ class Libx11 < Formula
   # tag "linuxbrew"
 
   bottle do
-    sha256 "83ef79752cdd15f34eabfe1c38b82e78d3fe75b77f2ecd22a26ea18af14753d5" => :x86_64_linux
+    rebuild 1
+    sha256 "cc0495d88f4e3ba59b5cbcfc05d1bb75533dd6c478d4d2e4e7e88f061dce3c5d" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
