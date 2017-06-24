@@ -6,8 +6,9 @@ class Bigreqsproto < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "204f49efe8ca9252a02645166810b3f1e8fe7d14e7298977cb41fc2bb3b945bd" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "f184a72cb79394fdc87a1f842d6107436eef0e312301f3c85ee915157d0ed3c3" => :x86_64_linux
   end
 
   option "with-specs", "Build specifications"
