@@ -7,7 +7,8 @@ class Xproto < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "322e6bbffb0a66affa15afea302134281b73fecb85ad4ca606c6e829c38ef1b6" => :x86_64_linux
+    rebuild 1
+    sha256 "8ae936c32ca6d72f2644334ba952bfd677675c49a171cbae9d90853a43c46f67" => :x86_64_linux
   end
 
   option "with-specs", "Build specifications"
