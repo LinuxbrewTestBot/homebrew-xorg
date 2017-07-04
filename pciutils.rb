@@ -6,7 +6,8 @@ class Pciutils < Formula
   # tag "linuxbrew"
 
   bottle do
-    sha256 "a824aca17f0b34dcc21ea46674213d0a71d213e2bb69e7314f8d8113468cb649" => :x86_64_linux
+    rebuild 1
+    sha256 "214144e24f7e246fa4897d52863f02ad52bdf22d443e92517c38a4e4f4719c05" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
