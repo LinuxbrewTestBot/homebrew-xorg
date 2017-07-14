@@ -6,7 +6,8 @@ class Libglvnd < Formula
   version "07262016"
 
   bottle do
-    sha256 "0eddfa4d5ad43b3365900d84507c42061831b082fbbb027759c06a8ceda8bc5c" => :x86_64_linux
+    rebuild 1
+    sha256 "9cfd1504520b5d4ed211e637329be2619c782ceff4f8ca16f3278f96929f8969" => :x86_64_linux
   end
 
   option "with-static", "Build static libraries (not recommended)"
