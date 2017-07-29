@@ -9,7 +9,7 @@ class Sessreg < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "17242c86ba919ff7bc10828ef3700ed097cb661508918c1bf8d0c75c748584df" => :x86_64_linux
+    sha256 "d9e91c3d473f2a27b0eb04be0e713c813f2ae375f36ee5e9f63674db36b09e8b" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
