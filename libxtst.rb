@@ -7,8 +7,8 @@ class Libxtst < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any_skip_relocation
-    sha256 "883e02960643d1b58e7a2cd860f7c2d4bc3e77c38ca5b2216a24a4593a93852b" => :x86_64_linux
+    rebuild 1
+    sha256 "b7b0d51e52e501dcad847d3879fedf4c3eb3d2522212b0cdbad6f7f2fdaba2b5" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
