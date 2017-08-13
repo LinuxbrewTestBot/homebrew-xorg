@@ -3,6 +3,7 @@ class Libxcb < Formula
   homepage "https://www.x.org/" ### http://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
   url "https://xcb.freedesktop.org/dist/libxcb-1.12.tar.bz2"
   sha256 "4adfb1b7c67e99bc9c2ccb110b2f175686576d2f792c8a71b9c8b19014057b5b"
+  revision 1
   # tag "linuxbrew"
 
   bottle do
