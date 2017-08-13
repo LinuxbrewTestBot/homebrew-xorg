@@ -3,6 +3,7 @@ class Mesa < Formula
   homepage "https://dri.freedesktop.org"
   url "https://mesa.freedesktop.org/archive/mesa-17.1.6.tar.xz"
   sha256 "0686deadde1f126b20aa67e47e8c50502043eee4ecdf60d5009ffda3cebfee50"
+  revision 1
 
   bottle do
     sha256 "6649e7b0e29d3bebd8632a0527194375f0ea720d201e3d1ea99b2d42a2a58117" => :x86_64_linux
