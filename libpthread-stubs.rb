@@ -7,7 +7,7 @@ class LibpthreadStubs < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "ab61c92ab2a15907df6a29d08963290c4896b1aa7939524932d343acbe7d8026" => :x86_64_linux
+    sha256 "85269058986d1ba6917f3b1ac03f900f550dba02ae00d6fe29d9633e7ff7dc2f" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
