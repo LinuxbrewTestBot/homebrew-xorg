@@ -4,6 +4,10 @@ class XorgServer < Formula
   url "https://www.x.org/archive//individual/xserver/xorg-server-1.19.3.tar.bz2"
   mirror "https://ftp.x.org/pub/individual/xserver/xorg-server-1.19.3.tar.bz2"
   sha256 "677a8166e03474719238dfe396ce673c4234735464d6dadf2959b600d20e5a98"
+  bottle do
+    sha256 "4b60232473e8300a63d544e40ea592ec37115c363ea13ecf4e4cfd51ee63bc7d" => :x86_64_linux
+  end
+
   # tag "linuxbrew"
 
   option "with-test", "Skip compile-time tests"
