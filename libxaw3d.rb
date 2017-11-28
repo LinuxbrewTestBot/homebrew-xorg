@@ -5,6 +5,10 @@ class Libxaw3d < Formula
   mirror "https://ftp.x.org/archive/individual/lib/libXaw3d-1.6.2.tar.bz2"
   sha256 "b74f11681061c1492c03cbbe6e318f9635b3877af0761fc0e67e1467c3a6972b"
 
+  bottle do
+    sha256 "25a7abe20dd0374befda6986e116c28bce2fe8537470c6648dbd60030e8d2af2" => :x86_64_linux
+  end
+
   option "without-test", "Skip compile-time tests"
   option "with-static", "Build static libraries (not recommended)"
   option "without-multiplane-bitmaps", "Build without multiplane bitmaps"
