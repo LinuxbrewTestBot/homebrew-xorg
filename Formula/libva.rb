@@ -4,6 +4,10 @@ class Libva < Formula
   url "https://www.freedesktop.org/software/vaapi/releases/libva/libva-1.8.2.tar.bz2"
   sha256 "9ed3e3ddc8f47a715d4c6ec366beb21c83fc4e8a3d4d39a811baff76f0a0cede"
 
+  bottle do
+    sha256 "41f1235d8e9109330005f44888432ae2656749a28382e2f6d0f199f4362f6f2a" => :x86_64_linux
+  end
+
   option "with-static", "Build static libraries (not recommended)"
 
   # Trivia: there is a circular dependency with Mesa.
