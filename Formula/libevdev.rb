@@ -8,6 +8,7 @@ class Libevdev < Formula
 
   bottle do
     cellar :any_skip_relocation
+    sha256 "8038685697da557b2190dd043035c21149c813e6c56582971db9eba81ebd07c3" => :x86_64_linux
   end
 
   option "with-static", "Build static libraries (not recommended)"
