@@ -7,6 +7,7 @@ class Libxcb < Formula
   # tag "linuxbrew"
 
   bottle do
+    sha256 "d39e8d02208a650f4760ab198316f8e900bcbde2f52ce4e7e3c5cb6950afc17d" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
