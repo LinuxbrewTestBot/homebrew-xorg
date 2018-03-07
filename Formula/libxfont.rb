@@ -6,9 +6,8 @@ class Libxfont < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "b4cfbf258a7019af71f8fa2b7190a53aafe8b1e15a9ae751831e7547f029aca9" => :x86_64_linux
+    rebuild 2
+    sha256 "56cb38f6d4dd40b3f08ce8941ee4eb3809b3d43390671ccedf827e20f6c2a0ae" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
