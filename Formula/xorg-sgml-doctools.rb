@@ -6,8 +6,9 @@ class XorgSgmlDoctools < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "a8cbbf67a25aa1fae0054621a20a7d717b47b1967e04003b36666db92dfdb43f" => :x86_64_linux
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "5291a341a2068ff32543e99f48c460c9c42408a6394256a88a471c3878f20f9d" => :x86_64_linux
   end
 
   depends_on "linuxbrew/xorg/util-macros"=> :build
