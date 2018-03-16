@@ -8,7 +8,8 @@ class XcbProto < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "659fa66505b5bb4d6774640fd21b379581c6c4703319e4cc95ded297f4eba8bb" => :x86_64_linux
+    rebuild 1
+    sha256 "0d20db8f5e5fa9fe25406fbcd1000d1d155010e6550a0e324bfed3784ac784c3" => :x86_64_linux
   end
 
   option "with-test", "Skip compile-time tests"
