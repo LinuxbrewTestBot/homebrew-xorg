@@ -5,6 +5,11 @@ class LibomxilBellagio < Formula
   sha256 "593c0729c8ef8c1467b3bfefcf355ec19a46dd92e31bfc280e17d96b0934d74c"
   revision 1
 
+  bottle do
+    root_url "https://linuxbrew.bintray.com/bottles-xorg"
+    sha256 "8f405db484d10304e0d5db1d7096b5f1ad672910ddb6b5a36ad5ee0219a11a1b" => :x86_64_linux
+  end
+
   option "without-test", "Skip compile-time tests"
   option "with-static", "Build static libraries (not recommended)"
 
