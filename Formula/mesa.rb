@@ -7,8 +7,7 @@ class Mesa < Formula
 
   bottle do
     root_url "https://linuxbrew.bintray.com/bottles-xorg"
-    rebuild 1
-    sha256 "b4c2ae6373c90eb23f5e8ed33d9757268802b793d56b17d6d58dd44ad9a48e32" => :x86_64_linux
+    sha256 "f75fe92f0226107a47915b7699639e6c3c54f7b9c9713de9d5cb56c97046b44f" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
