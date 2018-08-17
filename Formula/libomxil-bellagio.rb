@@ -7,7 +7,8 @@ class LibomxilBellagio < Formula
 
   bottle do
     root_url "https://linuxbrew.bintray.com/bottles-xorg"
-    sha256 "8f405db484d10304e0d5db1d7096b5f1ad672910ddb6b5a36ad5ee0219a11a1b" => :x86_64_linux
+    rebuild 1
+    sha256 "3d5f828aaf0488c7a76aa75a6348acb6951a18f4808374b1926df3893144b2b0" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
