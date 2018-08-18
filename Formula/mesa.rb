@@ -118,7 +118,7 @@ class Mesa < Formula
       --enable-xa=#{gpu}
       --enable-xvmc=#{gpu}
       --with-vulkan-drivers=intel
-      --with-swr-archs=avx,avx2,knl,skx
+      --with-swr-archs=avx,avx2,knl
       --enable-static=#{build.with?("static") ? "yes" : "no"}
       --enable-libglvnd=#{build.with?("libglvnd") ? "yes" : "no"}
     ]
