@@ -6,8 +6,10 @@ class Libxdmcp < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "b6ce973996bb3bee6493bf298605cabdebb538ff3092d97e9b98f2eeb7f24da3" => :x86_64_linux
+    root_url "https://linuxbrew.bintray.com/bottles-xorg"
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "f1a5695003d25b7144c072403f08c2cc907a7d9d81809681e3957620e973ed68" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
