@@ -6,8 +6,9 @@ class Presentproto < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "1681a30944a66c9859275787f978fd12a6b2e8e7015b3008612c0c78e5a9b305" => :x86_64_linux
+    root_url "https://linuxbrew.bintray.com/bottles-xorg"
+    cellar :any_skip_relocation
+    sha256 "b4b4ed865313ccc6bad7fc0b4ed7b3259c9ff72fdc301637d3c60a806ce6443b" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
