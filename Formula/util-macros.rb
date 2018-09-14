@@ -7,8 +7,9 @@ class UtilMacros < Formula
   # tag "linuxbrew"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles-xorg"
     cellar :any_skip_relocation
-    sha256 "cd91876f086c7e73b4c42b904b2e86eab4aed4a9cfbbb92c9f554f75e993eae9" => :x86_64_linux
+    sha256 "02b0459adfed7cedc617f47c9e28f507169a1965643ff58a816ba8625d0feaa0" => :x86_64_linux
   end
 
   def install
