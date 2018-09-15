@@ -8,8 +8,9 @@ class Iceauth < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "85faa34ab775ef0c8f6f539c97490dad0fb14654d3f01cb159e60965bb0e1a67" => :x86_64_linux
+    root_url "https://linuxbrew.bintray.com/bottles-xorg"
+    cellar :any_skip_relocation
+    sha256 "9d70e587531b5ef404a1542d06aa7fd38975d970f98f8336cb161f28e06b3258" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
