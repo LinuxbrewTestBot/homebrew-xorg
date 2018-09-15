@@ -6,8 +6,9 @@ class Libxshmfence < Formula
   # tag "linuxbrew"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles-xorg"
     cellar :any_skip_relocation
-    sha256 "5a9e167ece906a18ac6503d6b3f61c8b64f6b9749c1290079f31e8d9e712cf9d" => :x86_64_linux
+    sha256 "23008fee00e43a497d1344ac7d675ee6116137ba409fa1d4d4c05333fb6a6d78" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
