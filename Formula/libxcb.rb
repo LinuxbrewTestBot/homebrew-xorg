@@ -6,7 +6,9 @@ class Libxcb < Formula
   # tag "linuxbrew"
 
   bottle do
-    sha256 "d39e8d02208a650f4760ab198316f8e900bcbde2f52ce4e7e3c5cb6950afc17d" => :x86_64_linux
+    root_url "https://linuxbrew.bintray.com/bottles-xorg"
+    cellar :any_skip_relocation
+    sha256 "7dee4fe51b2082f61b3d0022c0ad89962b15ca1255baceef1bd94fe88b71788d" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
