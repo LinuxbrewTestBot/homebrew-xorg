@@ -8,7 +8,7 @@ class Libxfont < Formula
   bottle do
     root_url "https://linuxbrew.bintray.com/bottles-xorg"
     cellar :any_skip_relocation
-    sha256 "20d98b6f58aa07ffd3893144038268ff565ce86c964f0c1ac72610223cbebb45" => :x86_64_linux
+    sha256 "1c35567f2f949d001eaa8391f2633d44d5f7173213506ede9d72606200a44aae" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
