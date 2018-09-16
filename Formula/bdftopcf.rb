@@ -8,8 +8,9 @@ class Bdftopcf < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "0189f9d16ceacee801ecf1f0ff438fabac5d1ff23ce021b6a7ca1039a25331a2" => :x86_64_linux
+    root_url "https://linuxbrew.bintray.com/bottles-xorg"
+    cellar :any_skip_relocation
+    sha256 "5053b8540a1a6a17e82d2636e8228fd0c2863f1d75a55c82c8c0bdd28ac1bf87" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
