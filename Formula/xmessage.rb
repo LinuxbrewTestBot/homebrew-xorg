@@ -8,8 +8,9 @@ class Xmessage < Formula
   # tag "linuxbrew"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles-xorg"
     cellar :any_skip_relocation
-    sha256 "6a38fe5a90818f80f322186e6372684893e3b7362007eee0b45015f07e295415" => :x86_64_linux
+    sha256 "241ed2043ecd1ada147c20b545fb643e335eb5e0aef1ede78a3ca6e705c4fdd1" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
