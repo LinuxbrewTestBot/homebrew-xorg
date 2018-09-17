@@ -6,8 +6,9 @@ class Libxscrnsaver < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "75cfe204c369532370b5fdebd844d2fa49d006ddeaed9c4642833b7a2e57c9dd" => :x86_64_linux
+    root_url "https://linuxbrew.bintray.com/bottles-xorg"
+    cellar :any_skip_relocation
+    sha256 "201bfe6a40c71968795a354c8ea51703cff91483a3ec9bbc271e967f8b5e2205" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
