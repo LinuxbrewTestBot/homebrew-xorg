@@ -6,7 +6,8 @@ class Libx11 < Formula
   # tag "linuxbrew"
 
   bottle do
-    sha256 "83ef79752cdd15f34eabfe1c38b82e78d3fe75b77f2ecd22a26ea18af14753d5" => :x86_64_linux
+    root_url "https://linuxbrew.bintray.com/bottles-xorg"
+    sha256 "f0f2a5a7d7c735d47dba9d0dbdc34c8aeebf6e9333fa9e6193bbcf66a2b4e7ab" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
