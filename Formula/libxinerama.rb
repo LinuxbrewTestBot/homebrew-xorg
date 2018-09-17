@@ -6,8 +6,9 @@ class Libxinerama < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "a3ee24b79619182dc6eb91705e6b5ae2eb87f68cf2b02c15513f3734c5a89b13" => :x86_64_linux
+    root_url "https://linuxbrew.bintray.com/bottles-xorg"
+    cellar :any_skip_relocation
+    sha256 "ddf87c09432fe14d066753d83aece10e0597b19afa7d334543b59adad4efc20c" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
