@@ -5,6 +5,12 @@ class Xauth < Formula
   url "https://www.x.org/pub/individual/app/xauth-1.0.10.tar.bz2"
   mirror "http://ftp.x.org/pub/individual/app/xauth-1.0.10.tar.bz2"
   sha256 "5afe42ce3cdf4f60520d1658d2b17face45c74050f39af45dccdc95e73fafc4d"
+  bottle do
+    root_url "https://linuxbrew.bintray.com/bottles-xorg"
+    cellar :any_skip_relocation
+    sha256 "b749de0bb5aa76d426a434852075c79b2adbb02e273b6324b71be95c2106048b" => :x86_64_linux
+  end
+
   # tag "linuxbrew"
 
   depends_on "pkg-config" => :build
