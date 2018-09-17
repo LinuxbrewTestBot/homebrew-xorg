@@ -6,8 +6,9 @@ class Libxres < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "0985d29cbc53e7afdf8b0f01acc5ad3b39bdd9a036a0f773f25c6199b97fc5fe" => :x86_64_linux
+    root_url "https://linuxbrew.bintray.com/bottles-xorg"
+    cellar :any_skip_relocation
+    sha256 "cf3f1306d58e362dcc4340f059eac9971bab8fc67b4ce0a8c15cedd8b0fb4bd7" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
