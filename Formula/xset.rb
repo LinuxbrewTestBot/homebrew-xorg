@@ -5,6 +5,12 @@ class Xset < Formula
   url "https://www.x.org/pub/individual/app/xset-1.2.4.tar.bz2"
   mirror "http://ftp.x.org/pub/individual/app/xset-1.2.4.tar.bz2"
   sha256 "e4fd95280df52a88e9b0abc1fee11dcf0f34fc24041b9f45a247e52df941c957"
+  bottle do
+    root_url "https://linuxbrew.bintray.com/bottles-xorg"
+    cellar :any_skip_relocation
+    sha256 "09a4180771bd7661f2f97fefe6150712049aa8c7b2745fd84d97decaffa1c407" => :x86_64_linux
+  end
+
   # tag "linuxbrew"
 
   depends_on "pkg-config" => :build
