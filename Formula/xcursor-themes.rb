@@ -11,7 +11,7 @@ class XcursorThemes < Formula
   bottle do
     root_url "https://linuxbrew.bintray.com/bottles-xorg"
     cellar :any_skip_relocation
-    sha256 "ccbd0177a9632e55bfdabe2aa78b64a0f22f5ffb51c373e8cfe9e2199cdd686c" => :x86_64_linux
+    sha256 "423d1ed5fd71ee393c644feb9d9f66848a47d0e31258f00147f277932f444d2b" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
