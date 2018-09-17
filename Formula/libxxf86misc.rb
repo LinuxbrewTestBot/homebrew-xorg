@@ -6,8 +6,9 @@ class Libxxf86misc < Formula
   # tag "linuxbrew"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles-xorg"
     cellar :any_skip_relocation
-    sha256 "b93c3e0e6f73b9e19682b33f58ab6ebe836fd3918a3c6b15ec4ff7bd588c39e3" => :x86_64_linux
+    sha256 "58d5350b99200b7f6675fecc4e92252f45ae9c4488173dae86889976b1922c42" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
