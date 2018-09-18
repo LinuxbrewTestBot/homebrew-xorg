@@ -8,8 +8,9 @@ class Xsetroot < Formula
   # tag "linuxbrew"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles-xorg"
     cellar :any_skip_relocation
-    sha256 "79a6e85d103713f0b4c5d3d4cd8030a97a4bbd0a285c6d1a648ac99147ea30b2" => :x86_64_linux
+    sha256 "8a2c03ef486e7dcfa3c6239a78f50cfc0346b58b3b8d0075e5adbfe314918ade" => :x86_64_linux
   end
 
   # xmuu x11 xbitmaps xcursor xproto
