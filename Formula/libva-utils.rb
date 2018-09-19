@@ -4,6 +4,12 @@ class LibvaUtils < Formula
   url "https://github.com/intel/libva-utils/releases/download/2.2.0/libva-utils-2.2.0.tar.bz2"
   sha256 "ed7a6ed1fab657df4e83ea11f90310efcf31c27828f32d65351a28ca3c404dc0"
 
+  bottle do
+    root_url "https://linuxbrew.bintray.com/bottles-xorg"
+    cellar :any_skip_relocation
+    sha256 "9d3fc7fcc80bbf8500784125f9ab009c1935e46f921b55932fb42aab046b3497" => :x86_64_linux
+  end
+
   option "with-static", "Build static libraries (not recommended)"
 
   depends_on "pkg-config" => :build
