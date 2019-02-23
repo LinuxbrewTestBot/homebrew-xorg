@@ -8,8 +8,9 @@ class Xhost < Formula
   # tag "linuxbrew"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles-xorg"
     cellar :any_skip_relocation
-    sha256 "44654e8fde19bf1d959066ee8377ba29513becfdfe330be5e12958adc0c6caba" => :x86_64_linux
+    sha256 "4f0ad2aa69c22aa6c5292732eb99160554febe42cc3352140910b0adfb6e615b" => :x86_64_linux
   end
 
   depends_on "linuxbrew/xorg/xorgproto" => :build
