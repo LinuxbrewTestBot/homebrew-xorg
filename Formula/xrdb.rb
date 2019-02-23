@@ -9,7 +9,7 @@ class Xrdb < Formula
 
   bottle do
     root_url "https://linuxbrew.bintray.com/bottles-xorg"
-    sha256 "b757c0f4e01304477307e288365c4d438b2f6014ad66cdcb0b9e44a7aa5c2338" => :x86_64_linux
+    sha256 "a4fdfc3af56a2d0ba90dc60458de4fe296dc296ec000214165203d41990dad4a" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
