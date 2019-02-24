@@ -6,7 +6,9 @@ class Libfontenc < Formula
   # tag "linuxbrew"
 
   bottle do
-    sha256 "62966fcff8983e11ad73ba816c1df0837f4263b94be9ec184e8615047657f845" => :x86_64_linux
+    root_url "https://linuxbrew.bintray.com/bottles-xorg"
+    cellar :any_skip_relocation
+    sha256 "1c05a169250850d29a8dd10a4ccb56aa085be780971ad7c2ad8a1eb80fa6875d" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
