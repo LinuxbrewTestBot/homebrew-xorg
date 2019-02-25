@@ -6,7 +6,7 @@ class LibvaIntelDriver < Formula
 
   bottle do
     root_url "https://linuxbrew.bintray.com/bottles-xorg"
-    sha256 "4f51114a8b9992929f87b4cb7fa020cc9eca91b5a78651356b390d500fe7890e" => :x86_64_linux
+    sha256 "d56592f7e483ae26a61aa076468b73720485253f2cb79b3c831a09e52867336b" => :x86_64_linux
   end
 
   option "with-static", "Build static libraries (not recommended)"
