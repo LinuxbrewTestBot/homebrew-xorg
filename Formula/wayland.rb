@@ -7,7 +7,7 @@ class Wayland < Formula
   bottle do
     root_url "https://linuxbrew.bintray.com/bottles-xorg"
     cellar :any_skip_relocation
-    sha256 "2b1513b73de4866e56f24a2b4cb2a1640188f3fdae1c49fcd8f98d7aba0bd9d8" => :x86_64_linux
+    sha256 "ed45d0f9392c0add5fdc2e25b91e2bd450752ed34f2d69feb8151ccb697b0236" => :x86_64_linux
   end
 
   head do
