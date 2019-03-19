@@ -11,15 +11,16 @@ class XcbProto < Formula
     sha256 "68f456b5eeeb486d33019d410ab25acc3cdc8fb10240c4c08f3b59d4e5bf5d1e" => :x86_64_linux
   end
 
-  option "without-test", "Skip compile-time tests"
-  option "with-python@2", "Build with Python 2"
-
-  depends_on "libxml2" => :build if build.with? "test"
   depends_on "pkg-config" => :build
-  depends_on "python" => :build if build.without? "python@2"
-  depends_on "python@2" => [:build, :optional]
+  depends_on "autoconf" => :build
+  depends_on "automake" => :build
 
   def install
+    # Remove xcbgen so that xcb-proto does not need to depend on Python
+    inreplace "Makefile.am", "SUBDIRS = src xcbgen", "SUBDIRS = src"
+    inreplace "Makefile.in", "SUBDIRS = src xcbgen", "SUBDIRS = src"
+    inreplace "configure.ac", "AC_OUTPUT([Makefile src/Makefile xcbgen/Makefile xcb-proto.pc])", "AC_OUTPUT([Makefile src/Makefile xcb-proto.pc])"
+
     args = %W[
       --prefix=#{prefix}
       --sysconfdir=#{etc}
@@ -27,9 +28,9 @@ class XcbProto < Formula
       --disable-silent-rules
     ]
 
+    system "./autogen.sh"
     system "./configure", *args
     system "make"
-    system "make", "check" if build.with? "test"
     system "make", "install"
   end
 end
