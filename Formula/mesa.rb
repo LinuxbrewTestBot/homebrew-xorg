@@ -6,8 +6,7 @@ class Mesa < Formula
   head "https://gitlab.freedesktop.org/mesa/mesa.git"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles-xorg"
-    sha256 "f75fe92f0226107a47915b7699639e6c3c54f7b9c9713de9d5cb56c97046b44f" => :x86_64_linux
+    sha256 "36731aa03379dd53735bdd58bd5c53e1f1fbec26b4f020f215bf8a4ec0428507" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
