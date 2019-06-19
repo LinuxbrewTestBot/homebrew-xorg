@@ -5,9 +5,8 @@ class Xkeyboardconfig < Formula
   sha256 "690daec8fea63526c07620c90e6f3f10aae34e94b6db6e30906173480721901f"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles-xorg"
     cellar :any_skip_relocation
-    sha256 "91ec9583b3eadc646868a5bc4213986b51910e38cc6cb43afea2d89c9662d2e7" => :x86_64_linux
+    sha256 "011563d3e8e1365315b7d8207d664fc5b8f49bf1982e2cd7ed5149def06d871d" => :x86_64_linux
   end
 
   depends_on "gettext" => :build
