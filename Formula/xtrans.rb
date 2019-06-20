@@ -6,9 +6,8 @@ class Xtrans < Formula
   # tag "linuxbrew"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles-xorg"
     cellar :any_skip_relocation
-    sha256 "29360e66e2d2e52673460ad6aecafd96128e5450045237a1e833f9571fce783d" => :x86_64_linux
+    sha256 "71a00abeb9be73954af2152826a58370a9aada5a4eb02f3db480c0df5153cdb7" => :x86_64_linux
   end
 
   option "with-docs", "Build documentation"
