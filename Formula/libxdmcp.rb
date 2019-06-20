@@ -6,8 +6,8 @@ class Libxdmcp < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "b6ce973996bb3bee6493bf298605cabdebb538ff3092d97e9b98f2eeb7f24da3" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "4139b4e94721c23ad870bbee8eab978c81a1893ad29e9b0fae21b23546da0005" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
