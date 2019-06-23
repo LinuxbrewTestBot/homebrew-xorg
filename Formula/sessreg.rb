@@ -8,7 +8,7 @@ class Sessreg < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "d9e91c3d473f2a27b0eb04be0e713c813f2ae375f36ee5e9f63674db36b09e8b" => :x86_64_linux
+    sha256 "317fee80371ba91a2fc2c9b42922c717a9ffc6bed04f3fcf6210cd8ff83b28a3" => :x86_64_linux
   end
 
   depends_on "linuxbrew/xorg/xorgproto" => :build
