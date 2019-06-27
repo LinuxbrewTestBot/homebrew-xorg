@@ -6,8 +6,8 @@ class Libfs < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "cd6286cff0b75492f2ccf77ed7b9a26b0f89f75d178a8b60e660a77bb8710620" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "c34c9e927c96b690e558126c1df486650c8154984f5ad5582e8f2a6c0cfb17ec" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
