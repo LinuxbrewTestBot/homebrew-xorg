@@ -6,9 +6,8 @@ class Libpciaccess < Formula
   # tag "linuxbrew"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles-xorg"
     cellar :any_skip_relocation
-    sha256 "29d4c07ea17aa3aea9d3ceacc2ecf246606b0c3eeb1398e1869506a94adb5acc" => :x86_64_linux
+    sha256 "5572e5c010dcbc3e787d277497f09249c629b9668b6e84397c3d41aeda2e0a72" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
