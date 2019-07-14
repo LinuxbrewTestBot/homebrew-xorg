@@ -6,8 +6,8 @@ class Libice < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "68cbbeb20dc4db408dba453e9af9eee7274d17f9bb99f7c862ab087d2239b754" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "23a15495adac70a5fb0fbdcbf2edf956ef4178d1859d5d78ec83cdeaf9ac3669" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
