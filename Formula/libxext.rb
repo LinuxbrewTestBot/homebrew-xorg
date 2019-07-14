@@ -6,8 +6,8 @@ class Libxext < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "00ba831ed41f21fa1f0bbdbff41db6a6bb8c188b99f2665369aa0cbe3ec94ac1" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "e3af172c81646ce9bc6b40c5d28a294d5493286ff80fdddbf53a07a0f43642f2" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
