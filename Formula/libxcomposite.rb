@@ -6,8 +6,8 @@ class Libxcomposite < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "dee697e5ac68ee9cf255ddadb7ab3d847211ace22493e22442bea3d997d24659" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "5cf6cc0b18a15c3fdb80b0010a474d932ef8e4f25d537ce3f2cada9939a0f385" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
