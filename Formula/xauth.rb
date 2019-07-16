@@ -5,9 +5,8 @@ class Xauth < Formula
   url "https://www.x.org/pub/individual/app/xauth-1.1.tar.bz2"
   sha256 "6d1dd1b79dd185107c5b0fdd22d1d791ad749ad6e288d0cdf80964c4ffa7530c"
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles-xorg"
     cellar :any_skip_relocation
-    sha256 "b749de0bb5aa76d426a434852075c79b2adbb02e273b6324b71be95c2106048b" => :x86_64_linux
+    sha256 "301ed18d9ec3593f9e231faa78d67b47b101126832199f64a1e0f487de8f5323" => :x86_64_linux
   end
 
   # tag "linuxbrew"
