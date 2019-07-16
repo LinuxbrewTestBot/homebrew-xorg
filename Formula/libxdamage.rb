@@ -6,8 +6,8 @@ class Libxdamage < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "399e510a78f416268e583f948595884cf458db56098b779fb94f823240b65a14" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "d9c30c357ddba1b40626b060e1687f647c33bd2ea3add5a64d5fb22157553324" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
