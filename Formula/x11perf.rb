@@ -8,7 +8,7 @@ class X11perf < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "44fd4be54b3c9608490dea106d2ad134d6de072135e9d6b602848e2a2b5553c6" => :x86_64_linux
+    sha256 "481ba7530cd156a2c43c4b0318b768abf46140452ee970acab1e0e5c5551ce5b" => :x86_64_linux
   end
 
   depends_on "linuxbrew/xorg/util-macros" => :build
