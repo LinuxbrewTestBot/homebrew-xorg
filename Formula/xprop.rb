@@ -7,9 +7,8 @@ class Xprop < Formula
   # tag "linuxbrew"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles-xorg"
     cellar :any_skip_relocation
-    sha256 "d738417aceb53aa760fbaa6667289aa1d3a473ad4498f2b680dc28dde11b0eac" => :x86_64_linux
+    sha256 "0bab4399a478992911ad753197e72dc3db19449523a3fcad51059dcb5f63d416" => :x86_64_linux
   end
 
   depends_on "linuxbrew/xorg/util-macros" => :build
