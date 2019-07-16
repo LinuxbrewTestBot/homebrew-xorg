@@ -5,7 +5,7 @@ class Libvdpau < Formula
   sha256 "6a499b186f524e1c16b4f5b57a6a2de70dfceb25c4ee546515f26073cd33fa06"
 
   bottle do
-    sha256 "4f6c58d9040e7ee0a5206b7f76be36df402219ff112b6e4d69278f6ee97bb7c3" => :x86_64_linux
+    sha256 "42119e870bf2f5c85b28fbfee63d42e62591b26c236088457ae16e60a320533c" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
