@@ -7,7 +7,8 @@ class Setxkbmap < Formula
   # tag "linuxbrew"
 
   bottle do
-    sha256 "03e3d22d49be9eb2e6d667e9b3a748e6b034bf78b701ffbdc06742654b13d407" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "670faaa1f50059343cbd4d6411316a7895cb34631ded7fcb9f14d3bddb186cd5" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
