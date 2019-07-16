@@ -6,10 +6,8 @@ class Libxt < Formula
   # tag "linuxbrew"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles-xorg"
     cellar :any_skip_relocation
-    rebuild 2
-    sha256 "5607cebf01f40ee3138e7551993f222ad5d2c059bd5f10802c046f0f8d0b0e37" => :x86_64_linux
+    sha256 "ca44976ced1812ee671599b1476f2579bd55790a771b66ef6a2c1ef3fe07c3b8" => :x86_64_linux
   end
 
   option "with-test", "Run compile-time tests"
