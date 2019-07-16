@@ -5,8 +5,7 @@ class Libdrm < Formula
   sha256 "4dbf539c7ed25dbb2055090b77ab87508fc46be39a9379d15fed4b5517e1da5e"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles-xorg"
-    sha256 "c82794fc249a45b9f029a9ecd13b012edc2bfd3dc03fbb8455a8661efb09cf82" => :x86_64_linux
+    sha256 "fce7b99c35e1c597300cdccfa251d0dbbb45dcaf96e5cb3e362a1e08ae597b5c" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
