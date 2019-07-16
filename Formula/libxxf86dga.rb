@@ -6,8 +6,8 @@ class Libxxf86dga < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
-    sha256 "1cdae212078b6d5a2e3921938a54096390fa46ca13190a40b0e80c5bd6b596a7" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "7c534e6668fcbf09d124c89f32a292fe0e9edc4a650ec69daf8a4aad08d92b6c" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
