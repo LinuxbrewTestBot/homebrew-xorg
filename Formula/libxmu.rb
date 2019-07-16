@@ -6,8 +6,8 @@ class Libxmu < Formula
   # tag "linuxbrew"
 
   bottle do
-    rebuild 1
-    sha256 "2b0c683b9deddbed3c238bf167b96ada9e76587f22ed0a8d28d8f87955d38e20" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "16e19650d21bde3a7e74ec780c36632337fd931e1c9bbd01f40506508bf0de31" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
