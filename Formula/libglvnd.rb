@@ -6,8 +6,8 @@ class Libglvnd < Formula
   head "https://github.com/NVIDIA/libglvnd.git"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles-xorg"
-    sha256 "488e941253ffa45a85715b7d8f7386ebc1a934108898010fe2d6b4704f3d6a86" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "522f5c337791bed31d65096c68b4517ea7548e81f0f798b5e58dcc5cd03cacff" => :x86_64_linux
   end
 
   option "without-asm", "Build without assembly"
