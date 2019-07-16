@@ -7,7 +7,7 @@ class Libxi < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "84d0e465048c45d9236563a7803716fcb0bdafbbcf670992653fdcab6ca68d84" => :x86_64_linux
+    sha256 "945af08c6e1d961e3f06fe14d735208ed2979a84bc62315b057bfeb61bff8bae" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
