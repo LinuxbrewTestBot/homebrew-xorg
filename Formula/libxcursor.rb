@@ -6,8 +6,8 @@ class Libxcursor < Formula
   # tag "linuxbrew"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles-xorg"
-    sha256 "614e45876b3fbdad20030acb41425026d0ec9a7686f429a60afd014b21e585d8" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "2a49eacd71d2b4032ecc40ddb6d2f8f4ce8d1e4af7ba12fe7d64543e4997f2b4" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
