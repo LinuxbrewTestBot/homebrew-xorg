@@ -7,7 +7,7 @@ class Libxrandr < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "e8bc7002f599d1f9cd80b95441a3287d26cbe91147e3c80b27d5e90dfc9e5491" => :x86_64_linux
+    sha256 "3ee2eb9da710235f373e0f88ed3880570121a380ce4dbd09a921f2061c9fa18f" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
