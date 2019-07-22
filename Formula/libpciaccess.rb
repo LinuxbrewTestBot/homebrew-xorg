@@ -7,7 +7,7 @@ class Libpciaccess < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "5572e5c010dcbc3e787d277497f09249c629b9668b6e84397c3d41aeda2e0a72" => :x86_64_linux
+    sha256 "5c6a257b582d4556203bc73fa9bdc525194896459ed88a8b07af0d83154ab656" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
