@@ -8,7 +8,7 @@ class Xinput < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "346e245f0b0bea4836e0ad8d268e118958b374c54c2c3cd4965664355067b202" => :x86_64_linux
+    sha256 "390c65597d14a0cb98df011aeeaaf494ccabfb6eadda0047cc0aec6d27f20cc8" => :x86_64_linux
   end
 
   depends_on "linuxbrew/xorg/xorgproto" => :build
