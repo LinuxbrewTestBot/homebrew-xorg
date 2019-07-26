@@ -4,6 +4,11 @@ class Libgudev < Formula
   url "https://download.gnome.org/sources/libgudev/232/libgudev-232.tar.xz"
   sha256 "ee4cb2b9c573cdf354f6ed744f01b111d4b5bed3503ffa956cefff50489c7860"
 
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "04f5bb2fd056fecf62ad422abfd194ad9d3c017faa512d9b3d296f986fc21869" => :x86_64_linux
+  end
+
   depends_on "gobject-introspection" => [:recommended, :build]
   depends_on "gtk-doc" => [:recommended, :build]
   depends_on "pkg-config" => :build
