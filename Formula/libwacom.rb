@@ -4,6 +4,10 @@ class Libwacom < Formula
   url "https://github.com/linuxwacom/libwacom/releases/download/libwacom-0.33/libwacom-0.33.tar.bz2"
   sha256 "94f8a3371f30f4a38d6d2290f5160d5f5ba7a7cd6e63bee95686a67a3c19dbf2"
 
+  bottle do
+    sha256 "a911e71045926e0765f4f9bc394f4907f80b11e2fdf5468f4a61fdba86004231" => :x86_64_linux
+  end
+
   depends_on "libxml2" => :build
   depends_on "pkg-config" => :build
   depends_on "glib"
