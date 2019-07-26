@@ -4,6 +4,11 @@ class Umockdev < Formula
   url "https://github.com/martinpitt/umockdev/releases/download/0.13.1/umockdev-0.13.1.tar.xz"
   sha256 "8ad2509ad0a80577e0214eb4c4fd53a674468648d6a5364e7d39c61a9309eaa4"
 
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "73bbf78ed7f5cca0918d7652e2a4e7de6cf743ed1b07806b332bb6488919dbbd" => :x86_64_linux
+  end
+
   option "with-static", "Build static libraries (not recommended)"
 
   depends_on "gobject-introspection" => [:recommended, :build]
