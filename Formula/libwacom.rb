@@ -5,7 +5,7 @@ class Libwacom < Formula
   sha256 "c48f931bcebaa87ae38e3c3a14863d507cd083313207802864ab2763c5b90cc7"
 
   bottle do
-    sha256 "a911e71045926e0765f4f9bc394f4907f80b11e2fdf5468f4a61fdba86004231" => :x86_64_linux
+    sha256 "9fab5f5c7efa6249c9b5475539fe86fbea04ebde75f1b190f50c7ad439bb5b22" => :x86_64_linux
   end
 
   depends_on "libxml2" => :build
