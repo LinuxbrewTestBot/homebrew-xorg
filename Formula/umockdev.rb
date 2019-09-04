@@ -6,7 +6,7 @@ class Umockdev < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "73bbf78ed7f5cca0918d7652e2a4e7de6cf743ed1b07806b332bb6488919dbbd" => :x86_64_linux
+    sha256 "360ab5cd8eaf78cd23b8307eb28c107fd377c5eb4d9b21c877c391a58f6229a3" => :x86_64_linux
   end
 
   option "with-static", "Build static libraries (not recommended)"
