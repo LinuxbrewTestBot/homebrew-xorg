@@ -6,7 +6,7 @@ class IntelGmmlib < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "634e9f1d687fc2c59a37813174b79e1c01a4058c484e93f4f40d987adca8b451" => :x86_64_linux
+    sha256 "a458f170aeeb2264ac251e15bdbdc6691a4ec317ae73f241ce39966af5724915" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
