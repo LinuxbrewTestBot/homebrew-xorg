@@ -4,6 +4,11 @@ class LibvaInternal < Formula
   url "https://github.com/intel/libva/releases/download/2.5.0/libva-2.5.0.tar.bz2"
   sha256 "3aa89cd369a506ac4dbe5de7c0ef5da4f3d220bf986403f02fa1f6f702af6878"
 
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "8e6cc12fe2645cddb78144263b7c86b911b7dfd151059c6cf951a4fe2f0a1f5a" => :x86_64_linux
+  end
+
   keg_only <<~EOS
     it provides Libva package without EGL and GLX support. It serves
     the purpose of resolving the circular dependency between Libva and Mesa.
