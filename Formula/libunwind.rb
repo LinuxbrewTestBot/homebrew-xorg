@@ -4,6 +4,11 @@ class Libunwind < Formula
   url "https://download.savannah.nongnu.org/releases/libunwind/libunwind-1.3.1.tar.gz"
   sha256 "43997a3939b6ccdf2f669b50fdb8a4d3205374728c2923ddc2354c65260214f8"
 
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "b991fbc02ce1ac8a3925c09405e616f32ae959d91276c30baa00b38d39c8a599" => :x86_64_linux
+  end
+
   head do
     url "https://github.com/libunwind/libunwind.git"
     depends_on "autoconf" => :build
