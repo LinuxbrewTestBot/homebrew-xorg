@@ -7,7 +7,7 @@ class Libglvnd < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "522f5c337791bed31d65096c68b4517ea7548e81f0f798b5e58dcc5cd03cacff" => :x86_64_linux
+    sha256 "29da7d985d172c265c4b9573fc4a8cc6d29cf81f90f19840b18114942ff20289" => :x86_64_linux
   end
 
   option "without-asm", "Build without assembly"
