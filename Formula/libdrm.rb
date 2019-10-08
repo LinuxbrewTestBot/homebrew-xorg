@@ -5,7 +5,8 @@ class Libdrm < Formula
   sha256 "4dbf539c7ed25dbb2055090b77ab87508fc46be39a9379d15fed4b5517e1da5e"
 
   bottle do
-    sha256 "fce7b99c35e1c597300cdccfa251d0dbbb45dcaf96e5cb3e362a1e08ae597b5c" => :x86_64_linux
+    rebuild 1
+    sha256 "c6570152f0d10b31c30641b61e00179b935b9e553d414423336f69e58b4d69b0" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
