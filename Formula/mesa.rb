@@ -7,7 +7,7 @@ class Mesa < Formula
   head "https://gitlab.freedesktop.org/mesa/mesa.git"
 
   bottle do
-    sha256 "1a06e6bd3ea3ca4e13840621a0bb9214d020760d418b313b71d5baee8e0189eb" => :x86_64_linux
+    sha256 "69b3c0702241837aea522815616067844822e3c0681ed5105a0c982b02bf4616" => :x86_64_linux
   end
 
   option "without-gpu", "Build without graphics hardware"
