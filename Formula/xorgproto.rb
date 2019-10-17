@@ -7,7 +7,7 @@ class Xorgproto < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "9153a8547fae3bbe35ad0bd08bf8a51b4f0396264c569b4d9168b7979cebbb96" => :x86_64_linux
+    sha256 "d20a913e95276e66afe2ecd7f6e25c8006c00f8e3aa9420e01f3d89e630fcc51" => :x86_64_linux
   end
 
   if build.head?
