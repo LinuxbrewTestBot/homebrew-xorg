@@ -7,7 +7,7 @@ class Libxvmc < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "c662b1deecbc380ded8770f5b9ccfc7f7bac6b75f0a3caec1439e94a42357a83" => :x86_64_linux
+    sha256 "923a37dabf7caa36ec003d5679669eb5ed89e64312411005dfe2e6c38652f4fe" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
