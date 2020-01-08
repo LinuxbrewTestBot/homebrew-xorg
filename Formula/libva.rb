@@ -6,7 +6,7 @@ class Libva < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "0921829206d23d841b16885b7a2ef94e955f0778148eb721f1484c44d67eec5d" => :x86_64_linux
+    sha256 "b7198fc329c9c5a6187c84a4857b14d5341fbcb4cb3aaacdca26e455c0a305ad" => :x86_64_linux
   end
 
   option "with-static", "Build static libraries (not recommended)"
