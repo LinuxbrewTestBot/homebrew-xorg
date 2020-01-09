@@ -6,7 +6,7 @@ class LibvaInternal < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "8e6cc12fe2645cddb78144263b7c86b911b7dfd151059c6cf951a4fe2f0a1f5a" => :x86_64_linux
+    sha256 "08a78620d5c6eca063c2dd00d3366671c7ad063b67a55704ba5dc500326a202d" => :x86_64_linux
   end
 
   keg_only <<~EOS
