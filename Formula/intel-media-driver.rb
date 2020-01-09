@@ -6,7 +6,7 @@ class IntelMediaDriver < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "d3eb52ab28d004dc7c07c0322ee3662095bb22aa5e7a96037f92adfafb93fa7f" => :x86_64_linux
+    sha256 "667229037a5d36541c83fab4231673ef8ecd42387a01c5caa88377c96e37ceda" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
