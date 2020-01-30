@@ -7,7 +7,8 @@ class Mesa < Formula
   head "https://gitlab.freedesktop.org/mesa/mesa.git"
 
   bottle do
-    sha256 "6467c20d2e32157fb4fb66c8a19138cfc13090d73aa102b460ed7cadfadfb475" => :x86_64_linux
+    root_url "https://linuxbrew.bintray.com/bottles-xorg"
+    sha256 "0b73130db92d6c6fd66a8151a3d1c897fda0b033c491785394775c040e4ba4c5" => :x86_64_linux
   end
 
   option "without-gpu", "Build without graphics hardware"
