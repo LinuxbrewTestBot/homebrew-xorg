@@ -6,8 +6,9 @@ class Libglvnd < Formula
   head "https://github.com/NVIDIA/libglvnd.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles-xorg"
     cellar :any_skip_relocation
-    sha256 "29da7d985d172c265c4b9573fc4a8cc6d29cf81f90f19840b18114942ff20289" => :x86_64_linux
+    sha256 "9438f9ec28518c934b247e434e0993c3143fd789bba020ed935b4598c7b56980" => :x86_64_linux
   end
 
   depends_on "linuxbrew/xorg/libpthread-stubs" => :build
