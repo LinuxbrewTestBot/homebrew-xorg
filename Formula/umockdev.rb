@@ -5,8 +5,9 @@ class Umockdev < Formula
   sha256 "ffb6134667f510a146b533076eb1a316392c7902a4ec593080de9fb53393e8bc"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles-xorg"
     cellar :any_skip_relocation
-    sha256 "360ab5cd8eaf78cd23b8307eb28c107fd377c5eb4d9b21c877c391a58f6229a3" => :x86_64_linux
+    sha256 "ef755d8926a10f616e2b5095bf6bf7f47421843846468d2ca736ddcdd767fe5d" => :x86_64_linux
   end
 
   depends_on "gobject-introspection" => [:recommended, :build]
